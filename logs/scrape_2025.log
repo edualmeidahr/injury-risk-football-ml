@@ -1,0 +1,1919 @@
+[liga] Serie A 2022 (saison_id=2021)
+  -> 20 clubes
+[liga] Serie A 2023 (saison_id=2022)
+  -> 20 clubes
+[liga] Serie A 2024 (saison_id=2023)
+  -> 20 clubes
+[liga] Serie A 2025 (saison_id=2024)
+  -> 20 clubes
+
+80 linhas -> /home/eduardo/Documentos/8 Periodo/Estimativa_risco_lesao/data/processed/clubs_serie_a.csv
+temporada
+2022    20
+2023    20
+2024    20
+2025    20
+--- [1/80] ---
+[elenco] CR Flamengo (id=614) temporada=2022 (saison_id=2021)
+  -> 61 jogadores
+--- [2/80] ---
+[elenco] SC Corinthians (id=199) temporada=2022 (saison_id=2021)
+  -> 52 jogadores
+--- [3/80] ---
+[elenco] Atlético Mineiro (id=330) temporada=2022 (saison_id=2021)
+  -> 44 jogadores
+--- [4/80] ---
+[elenco] SE Palmeiras (id=1023) temporada=2022 (saison_id=2021)
+  -> 42 jogadores
+--- [5/80] ---
+[elenco] SC Internacional (id=6600) temporada=2022 (saison_id=2021)
+  -> 51 jogadores
+--- [6/80] ---
+[elenco] Botafogo FR (id=537) temporada=2022 (saison_id=2021)
+  -> 62 jogadores
+--- [7/80] ---
+[elenco] Athletico Paranaense (id=679) temporada=2022 (saison_id=2021)
+  -> 67 jogadores
+--- [8/80] ---
+[elenco] São Paulo FC (id=585) temporada=2022 (saison_id=2021)
+  -> 48 jogadores
+--- [9/80] ---
+[elenco] Santos FC (id=221) temporada=2022 (saison_id=2021)
+  -> 52 jogadores
+--- [10/80] ---
+[elenco] RB Bragantino (id=8793) temporada=2022 (saison_id=2021)
+  -> 47 jogadores
+--- [11/80] ---
+[elenco] Fluminense FC (id=2462) temporada=2022 (saison_id=2021)
+  -> 46 jogadores
+--- [12/80] ---
+[elenco] Fortaleza EC (id=10870) temporada=2022 (saison_id=2021)
+  -> 43 jogadores
+--- [13/80] ---
+[elenco] Avaí FC (id=2035) temporada=2022 (saison_id=2021)
+  -> 64 jogadores
+--- [14/80] ---
+[elenco] Ceará SC (id=2029) temporada=2022 (saison_id=2021)
+  -> 52 jogadores
+--- [15/80] ---
+[elenco] Cuiabá EC (id=28022) temporada=2022 (saison_id=2021)
+  -> 63 jogadores
+--- [16/80] ---
+[elenco] Coritiba FC (id=776) temporada=2022 (saison_id=2021)
+  -> 54 jogadores
+--- [17/80] ---
+[elenco] América Mineiro (id=2863) temporada=2022 (saison_id=2021)
+  -> 56 jogadores
+--- [18/80] ---
+[elenco] EC Juventude (id=10492) temporada=2022 (saison_id=2021)
+  -> 55 jogadores
+--- [19/80] ---
+[elenco] Goiás EC (id=3197) temporada=2022 (saison_id=2021)
+  -> 70 jogadores
+--- [20/80] ---
+[elenco] Atlético Goianiense (id=15172) temporada=2022 (saison_id=2021)
+  -> 52 jogadores
+--- [21/80] ---
+[elenco] CR Flamengo (id=614) temporada=2023 (saison_id=2022)
+  -> 58 jogadores
+--- [22/80] ---
+[elenco] Atlético Mineiro (id=330) temporada=2023 (saison_id=2022)
+  -> 40 jogadores
+--- [23/80] ---
+[elenco] Botafogo FR (id=537) temporada=2023 (saison_id=2022)
+  -> 64 jogadores
+--- [24/80] ---
+[elenco] SE Palmeiras (id=1023) temporada=2023 (saison_id=2022)
+  -> 42 jogadores
+--- [25/80] ---
+[elenco] São Paulo FC (id=585) temporada=2023 (saison_id=2022)
+  -> 50 jogadores
+--- [26/80] ---
+[elenco] Grêmio FBPA (id=210) temporada=2023 (saison_id=2022)
+  -> 62 jogadores
+--- [27/80] ---
+[elenco] SC Corinthians (id=199) temporada=2023 (saison_id=2022)
+  -> 48 jogadores
+--- [28/80] ---
+[elenco] Santos FC (id=221) temporada=2023 (saison_id=2022)
+  -> 56 jogadores
+--- [29/80] ---
+[elenco] Fluminense FC (id=2462) temporada=2023 (saison_id=2022)
+  -> 59 jogadores
+--- [30/80] ---
+[elenco] SC Internacional (id=6600) temporada=2023 (saison_id=2022)
+  -> 41 jogadores
+--- [31/80] ---
+[elenco] RB Bragantino (id=8793) temporada=2023 (saison_id=2022)
+  -> 49 jogadores
+--- [32/80] ---
+[elenco] CR Vasco da Gama (id=978) temporada=2023 (saison_id=2022)
+  -> 70 jogadores
+--- [33/80] ---
+[elenco] EC Bahia (id=10010) temporada=2023 (saison_id=2022)
+  -> 72 jogadores
+--- [34/80] ---
+[elenco] Cruzeiro EC (id=609) temporada=2023 (saison_id=2022)
+  -> 51 jogadores
+--- [35/80] ---
+[elenco] Coritiba FC (id=776) temporada=2023 (saison_id=2022)
+  -> 61 jogadores
+--- [36/80] ---
+[elenco] Athletico Paranaense (id=679) temporada=2023 (saison_id=2022)
+  -> 53 jogadores
+--- [37/80] ---
+[elenco] Fortaleza EC (id=10870) temporada=2023 (saison_id=2022)
+  -> 44 jogadores
+--- [38/80] ---
+[elenco] América Mineiro (id=2863) temporada=2023 (saison_id=2022)
+  -> 54 jogadores
+--- [39/80] ---
+[elenco] Goiás EC (id=3197) temporada=2023 (saison_id=2022)
+  -> 64 jogadores
+--- [40/80] ---
+[elenco] Cuiabá EC (id=28022) temporada=2023 (saison_id=2022)
+  -> 46 jogadores
+--- [41/80] ---
+[elenco] CR Flamengo (id=614) temporada=2024 (saison_id=2023)
+  -> 69 jogadores
+--- [42/80] ---
+[elenco] SE Palmeiras (id=1023) temporada=2024 (saison_id=2023)
+  -> 43 jogadores
+--- [43/80] ---
+[elenco] SC Corinthians (id=199) temporada=2024 (saison_id=2023)
+  -> 57 jogadores
+--- [44/80] ---
+[elenco] Botafogo FR (id=537) temporada=2024 (saison_id=2023)
+  -> 59 jogadores
+--- [45/80] ---
+[elenco] Atlético Mineiro (id=330) temporada=2024 (saison_id=2023)
+  -> 44 jogadores
+--- [46/80] ---
+[elenco] SC Internacional (id=6600) temporada=2024 (saison_id=2023)
+  -> 51 jogadores
+--- [47/80] ---
+[elenco] São Paulo FC (id=585) temporada=2024 (saison_id=2023)
+  -> 49 jogadores
+--- [48/80] ---
+[elenco] CR Vasco da Gama (id=978) temporada=2024 (saison_id=2023)
+  -> 64 jogadores
+--- [49/80] ---
+[elenco] Cruzeiro EC (id=609) temporada=2024 (saison_id=2023)
+  -> 51 jogadores
+--- [50/80] ---
+[elenco] Fluminense FC (id=2462) temporada=2024 (saison_id=2023)
+  -> 67 jogadores
+--- [51/80] ---
+[elenco] Grêmio FBPA (id=210) temporada=2024 (saison_id=2023)
+  -> 62 jogadores
+--- [52/80] ---
+[elenco] EC Bahia (id=10010) temporada=2024 (saison_id=2023)
+  -> 63 jogadores
+--- [53/80] ---
+[elenco] RB Bragantino (id=8793) temporada=2024 (saison_id=2023)
+  -> 61 jogadores
+--- [54/80] ---
+[elenco] Athletico Paranaense (id=679) temporada=2024 (saison_id=2023)
+  -> 54 jogadores
+--- [55/80] ---
+[elenco] Fortaleza EC (id=10870) temporada=2024 (saison_id=2023)
+  -> 43 jogadores
+--- [56/80] ---
+[elenco] Atlético Goianiense (id=15172) temporada=2024 (saison_id=2023)
+  -> 55 jogadores
+--- [57/80] ---
+[elenco] Criciúma EC (id=7178) temporada=2024 (saison_id=2023)
+  -> 48 jogadores
+--- [58/80] ---
+[elenco] EC Vitória (id=2125) temporada=2024 (saison_id=2023)
+  -> 60 jogadores
+--- [59/80] ---
+[elenco] Cuiabá EC (id=28022) temporada=2024 (saison_id=2023)
+  -> 45 jogadores
+--- [60/80] ---
+[elenco] EC Juventude (id=10492) temporada=2024 (saison_id=2023)
+  -> 53 jogadores
+--- [61/80] ---
+[elenco] CR Flamengo (id=614) temporada=2025 (saison_id=2024)
+  -> 74 jogadores
+--- [62/80] ---
+[elenco] SE Palmeiras (id=1023) temporada=2025 (saison_id=2024)
+  -> 54 jogadores
+--- [63/80] ---
+[elenco] Botafogo FR (id=537) temporada=2025 (saison_id=2024)
+  -> 82 jogadores
+--- [64/80] ---
+[elenco] Santos FC (id=221) temporada=2025 (saison_id=2024)
+  -> 52 jogadores
+--- [65/80] ---
+[elenco] Atlético Mineiro (id=330) temporada=2025 (saison_id=2024)
+  -> 67 jogadores
+--- [66/80] ---
+[elenco] Grêmio FBPA (id=210) temporada=2025 (saison_id=2024)
+  -> 58 jogadores
+--- [67/80] ---
+[elenco] CR Vasco da Gama (id=978) temporada=2025 (saison_id=2024)
+  -> 70 jogadores
+--- [68/80] ---
+[elenco] Cruzeiro EC (id=609) temporada=2025 (saison_id=2024)
+  -> 50 jogadores
+--- [69/80] ---
+[elenco] SC Corinthians (id=199) temporada=2025 (saison_id=2024)
+  -> 47 jogadores
+--- [70/80] ---
+[elenco] São Paulo FC (id=585) temporada=2025 (saison_id=2024)
+  -> 55 jogadores
+--- [71/80] ---
+[elenco] EC Bahia (id=10010) temporada=2025 (saison_id=2024)
+  -> 72 jogadores
+--- [72/80] ---
+[elenco] Fluminense FC (id=2462) temporada=2025 (saison_id=2024)
+  -> 71 jogadores
+--- [73/80] ---
+[elenco] RB Bragantino (id=8793) temporada=2025 (saison_id=2024)
+  -> 52 jogadores
+--- [74/80] ---
+[elenco] SC Internacional (id=6600) temporada=2025 (saison_id=2024)
+  -> 52 jogadores
+--- [75/80] ---
+[elenco] Fortaleza EC (id=10870) temporada=2025 (saison_id=2024)
+  -> 57 jogadores
+--- [76/80] ---
+[elenco] Sport Recife (id=8718) temporada=2025 (saison_id=2024)
+  -> 76 jogadores
+--- [77/80] ---
+[elenco] EC Vitória (id=2125) temporada=2025 (saison_id=2024)
+  -> 69 jogadores
+--- [78/80] ---
+[elenco] Ceará SC (id=2029) temporada=2025 (saison_id=2024)
+  -> 48 jogadores
+--- [79/80] ---
+[elenco] EC Juventude (id=10492) temporada=2025 (saison_id=2024)
+  -> 57 jogadores
+--- [80/80] ---
+[elenco] Mirassol FC (id=3876) temporada=2025 (saison_id=2024)
+  -> 50 jogadores
+
+4476 linhas (jogador x temporada x clube) -> /home/eduardo/Documentos/8 Periodo/Estimativa_risco_lesao/data/processed/squad_raw.csv
+2347 jogadores unicos
+28 clubes distintos
+
+linhas por temporada:
+temporada
+2022    1081
+2023    1084
+2024    1098
+2025    1213
+[checkpoint] 1964 jogadores ja processados — retomando
+[1/407] lesoes de Léo Nannetti (1370606)
+  -> 0 lesoes
+[2/407] lesoes de Gabriel Werneck (1488557)
+  -> 0 lesoes
+[3/407] lesoes de Danilo (145707)
+  -> 26 lesoes
+[4/407] lesoes de Felipe Vieira (1087844)
+  -> 0 lesoes
+[5/407] lesoes de Wesley Juan (1097844)
+  -> 0 lesoes
+[6/407] lesoes de Pedro Fachinetti (1355835)
+  -> 0 lesoes
+[7/407] lesoes de Johnny Góes (1363404)
+  -> 0 lesoes
+[8/407] lesoes de Yago Melo (1393375)
+  -> 0 lesoes
+[9/407] lesoes de Emerson Royal (476344)
+  -> 6 lesoes
+[10/407] lesoes de Gusttavo Sousa (1277007)
+  -> 0 lesoes
+[11/407] lesoes de Wanderson Jr (1355839)
+  -> 0 lesoes
+[12/407] lesoes de Guilherme Santos (1364722)
+  -> 0 lesoes
+[13/407] lesoes de Jorginho (102017)
+  -> 9 lesoes
+[14/407] lesoes de Pablo (1332141)
+  -> 0 lesoes
+[15/407] lesoes de Lucas Vieira (1355836)
+  -> 0 lesoes
+[16/407] lesoes de Luiz Felipe (1376049)
+  -> 0 lesoes
+[17/407] lesoes de Saúl Ñíguez (148928)
+  -> 12 lesoes
+[18/407] lesoes de Bruno (1232718)
+  -> 0 lesoes
+[19/407] lesoes de Jorge Carrascal (354145)
+  -> 4 lesoes
+[20/407] lesoes de Rafael Vargas (1275143)
+  -> 0 lesoes
+[21/407] lesoes de Joshua (1321884)
+  -> 0 lesoes
+[22/407] lesoes de Samuel Lino (694928)
+  -> 2 lesoes
+[23/407] lesoes de Douglas Telles (1220787)
+  -> 0 lesoes
+[24/407] lesoes de Juninho (424676)
+  -> 3 lesoes
+[25/407] lesoes de Guilherme Sousa (1260203)
+  -> 0 lesoes
+[26/407] lesoes de João Camargo (1355838)
+  -> 0 lesoes
+[27/407] lesoes de César Rodrigues (1004722)
+  -> 0 lesoes
+[28/407] lesoes de Luiz Sá (1222227)
+  -> 0 lesoes
+[29/407] lesoes de Kauan Lima (1229317)
+  -> 0 lesoes
+[30/407] lesoes de Aranha (1093863)
+  -> 0 lesoes
+[31/407] lesoes de Arthur Gabriel (1115722)
+  -> 1 lesoes
+[32/407] lesoes de Gilberto Junior (1093864)
+  -> 0 lesoes
+[33/407] lesoes de Luis Pacheco (1268048)
+  -> 0 lesoes
+[34/407] lesoes de Larson (1116605)
+  -> 0 lesoes
+[35/407] lesoes de Rafael Coutinho (1221390)
+  -> 0 lesoes
+[36/407] lesoes de Erick Belé (1180021)
+  -> 0 lesoes
+[37/407] lesoes de Ramón Sosa (745191)
+  -> 9 lesoes
+[38/407] lesoes de Facundo Torres (465822)
+  -> 4 lesoes
+[39/407] lesoes de Allan (1082631)
+  -> 1 lesoes
+[40/407] lesoes de Heittor (1380266)
+  -> 0 lesoes
+[41/407] lesoes de Thalys (1072157)
+  -> 0 lesoes
+[42/407] lesoes de Neto (111819)
+  -> 11 lesoes
+[43/407] lesoes de Cristhian Loor (1074501)
+  -> 0 lesoes
+[44/407] lesoes de Cristiano Junior (1219240)
+  -> 0 lesoes
+[45/407] lesoes de Cléber Lucas (1416506)
+  -> 0 lesoes
+[46/407] lesoes de Kaio (523363)
+  -> 8 lesoes
+[47/407] lesoes de Ryan Couto (1027027)
+  -> 0 lesoes
+[48/407] lesoes de Gabriel Justino (1127043)
+  -> 0 lesoes
+[49/407] lesoes de Kauã Branco (1222581)
+  -> 0 lesoes
+[50/407] lesoes de Gabriel Bahia (1128780)
+  -> 0 lesoes
+  [checkpoint] salvo apos 50 jogadores deste run
+[51/407] lesoes de Lucyo (1253931)
+  -> 0 lesoes
+[52/407] lesoes de Kaique Pereira (1263464)
+  -> 0 lesoes
+[53/407] lesoes de Gabriel Abdias (1363516)
+  -> 0 lesoes
+[54/407] lesoes de Kauê Leonardo (1124214)
+  -> 0 lesoes
+[55/407] lesoes de Lucas Camilo (1004726)
+  -> 0 lesoes
+[56/407] lesoes de Marquinhos (1284052)
+  -> 0 lesoes
+[57/407] lesoes de Huguinho (1364573)
+  -> 0 lesoes
+[58/407] lesoes de Santiago Rodríguez (465819)
+  -> 7 lesoes
+[59/407] lesoes de Jordan Barrera (1087334)
+  -> 3 lesoes
+[60/407] lesoes de Kauan Lindes (1222625)
+  -> 0 lesoes
+[61/407] lesoes de Cauã Zappelini (1284051)
+  -> 0 lesoes
+[62/407] lesoes de Caio Valle (1360833)
+  -> 0 lesoes
+[63/407] lesoes de Gabriel Justino (525257)
+  -> 1 lesoes
+[64/407] lesoes de Álvaro Montoro (1228194)
+  -> 1 lesoes
+[65/407] lesoes de Kauan Toledo (1096605)
+  -> 0 lesoes
+[66/407] lesoes de Rafael Lobato (1097263)
+  -> 0 lesoes
+[67/407] lesoes de Joaquín Correa (227081)
+  -> 30 lesoes
+[68/407] lesoes de Arthur Cabral (390638)
+  -> 14 lesoes
+[69/407] lesoes de Chris Ramos (538810)
+  -> 6 lesoes
+[70/407] lesoes de Elias Manoel (813044)
+  -> 1 lesoes
+[71/407] lesoes de Valentín Adamo (982526)
+  -> 0 lesoes
+[72/407] lesoes de Kayke Queiroz (1219248)
+  -> 1 lesoes
+[73/407] lesoes de Kadir Barría (1464878)
+  -> 0 lesoes
+[74/407] lesoes de Gabriel Brazão (371247)
+  -> 4 lesoes
+[75/407] lesoes de Adonis Frías (598838)
+  -> 2 lesoes
+[76/407] lesoes de Alexis Duarte (491587)
+  -> 3 lesoes
+[77/407] lesoes de Luan Peres (347913)
+  -> 11 lesoes
+[78/407] lesoes de Luisão (1093922)
+  -> 0 lesoes
+[79/407] lesoes de João Alencar (1117807)
+  -> 0 lesoes
+[80/407] lesoes de João Ananias (1256755)
+  -> 0 lesoes
+[81/407] lesoes de Vinicius Lira (1253844)
+  -> 1 lesoes
+[82/407] lesoes de Souza (1086258)
+  -> 2 lesoes
+[83/407] lesoes de JP Chermont (1089955)
+  -> 1 lesoes
+[84/407] lesoes de João Schmidt (198859)
+  -> 4 lesoes
+[85/407] lesoes de Gustavinho (1101124)
+  -> 4 lesoes
+[86/407] lesoes de Diego Pituca (546000)
+  -> 1 lesoes
+[87/407] lesoes de Hyan (1082852)
+  -> 1 lesoes
+[88/407] lesoes de Gabriel Bontempo (1089958)
+  -> 4 lesoes
+[89/407] lesoes de Neymar (68290)
+  -> 49 lesoes
+[90/407] lesoes de Gustavo Caballero (891672)
+  -> 0 lesoes
+[91/407] lesoes de Mateus Xavier (1220141)
+  -> 0 lesoes
+[92/407] lesoes de Benjamín Rollheiser (491704)
+  -> 6 lesoes
+[93/407] lesoes de Billal Brahimi (543051)
+  -> 1 lesoes
+[94/407] lesoes de Andrey Quintino (816149)
+  -> 0 lesoes
+[95/407] lesoes de Robinho Junior (1355385)
+  -> 0 lesoes
+[96/407] lesoes de Wendel (589911)
+  -> 1 lesoes
+[97/407] lesoes de Rafael Freitas (1077154)
+  -> 0 lesoes
+[98/407] lesoes de Luca Meirelles (1220143)
+  -> 0 lesoes
+[99/407] lesoes de Pedro Cobra (1193865)
+  -> 0 lesoes
+[100/407] lesoes de Robert (1124553)
+  -> 0 lesoes
+  [checkpoint] salvo apos 100 jogadores deste run
+[101/407] lesoes de Dudu Cruz (1086534)
+  -> 0 lesoes
+[102/407] lesoes de Renan Santana (1096224)
+  -> 0 lesoes
+[103/407] lesoes de Vitão (1355486)
+  -> 0 lesoes
+[104/407] lesoes de Iván Román (1101447)
+  -> 2 lesoes
+[105/407] lesoes de Pedro Oliveira (1275582)
+  -> 0 lesoes
+[106/407] lesoes de Kayque (980823)
+  -> 0 lesoes
+[107/407] lesoes de Zé Phelipe (1098726)
+  -> 0 lesoes
+[108/407] lesoes de Kauan Guilherme (1124552)
+  -> 0 lesoes
+[109/407] lesoes de Denilson (1261577)
+  -> 0 lesoes
+[110/407] lesoes de David Kauã (1093865)
+  -> 0 lesoes
+[111/407] lesoes de Índio (1339551)
+  -> 1 lesoes
+[112/407] lesoes de Eric Soares (1367322)
+  -> 0 lesoes
+[113/407] lesoes de Reinier (627226)
+  -> 8 lesoes
+[114/407] lesoes de Mateus Iseppe (1220180)
+  -> 0 lesoes
+[115/407] lesoes de Alisson Souza (1270605)
+  -> 0 lesoes
+[116/407] lesoes de Ryan Felipe (1261644)
+  -> 0 lesoes
+[117/407] lesoes de Gabriel Veneno (1383406)
+  -> 0 lesoes
+[118/407] lesoes de Pedro Ataíde (1096223)
+  -> 0 lesoes
+[119/407] lesoes de Lucas Louback (1220182)
+  -> 0 lesoes
+[120/407] lesoes de Lucas Daniel (1222572)
+  -> 1 lesoes
+[121/407] lesoes de Mosquito (1426996)
+  -> 0 lesoes
+[122/407] lesoes de João Marcelo (1344099)
+  -> 1 lesoes
+[123/407] lesoes de Jorge Meurer (1206621)
+  -> 0 lesoes
+[124/407] lesoes de Nathan Borges (1219653)
+  -> 0 lesoes
+[125/407] lesoes de Luis Eduardo (1355268)
+  -> 2 lesoes
+[126/407] lesoes de Pedro Gabriel (1253927)
+  -> 0 lesoes
+[127/407] lesoes de Enzo (1139255)
+  -> 0 lesoes
+[128/407] lesoes de Arthur Melo (362842)
+  -> 28 lesoes
+[129/407] lesoes de Gustavo Cuéllar (119333)
+  -> 4 lesoes
+[130/407] lesoes de Erick Noriega (723853)
+  -> 2 lesoes
+[131/407] lesoes de Bernardo Zortea (1253926)
+  -> 0 lesoes
+[132/407] lesoes de Francis Amuzu (423604)
+  -> 20 lesoes
+[133/407] lesoes de Cristian Olivera (657746)
+  -> 12 lesoes
+[134/407] lesoes de Gabriel Mec (1228661)
+  -> 2 lesoes
+[135/407] lesoes de Carlos Vinícius (525287)
+  -> 9 lesoes
+[136/407] lesoes de Jeferson (1257350)
+  -> 0 lesoes
+[137/407] lesoes de Smiley (1257351)
+  -> 0 lesoes
+[138/407] lesoes de Daniel Fuzato (438682)
+  -> 1 lesoes
+[139/407] lesoes de Allan Vitor (1083886)
+  -> 0 lesoes
+[140/407] lesoes de Medina (1364578)
+  -> 0 lesoes
+[141/407] lesoes de Carlos Cuesta (474589)
+  -> 8 lesoes
+[142/407] lesoes de Gabriel Banga (640275)
+  -> 0 lesoes
+[143/407] lesoes de Walace Falcão (1221660)
+  -> 0 lesoes
+[144/407] lesoes de Bruno André (1355257)
+  -> 0 lesoes
+[145/407] lesoes de Riquelme (643119)
+  -> 1 lesoes
+[146/407] lesoes de Riquelme Avellar (1355258)
+  -> 0 lesoes
+[147/407] lesoes de Alison (1364574)
+  -> 0 lesoes
+[148/407] lesoes de Breno Vereza (1220467)
+  -> 0 lesoes
+[149/407] lesoes de Léo Araújo (1364575)
+  -> 0 lesoes
+[150/407] lesoes de Thiago Mendes (135617)
+  -> 8 lesoes
+  [checkpoint] salvo apos 150 jogadores deste run
+[151/407] lesoes de Euder (1159259)
+  -> 1 lesoes
+[152/407] lesoes de Diego Ahmed (1364576)
+  -> 0 lesoes
+[153/407] lesoes de Andrés Gómez (957461)
+  -> 5 lesoes
+[154/407] lesoes de Benjamín Garré (462977)
+  -> 4 lesoes
+[155/407] lesoes de Nuno Moreira (461937)
+  -> 4 lesoes
+[156/407] lesoes de Loide Augusto (696693)
+  -> 10 lesoes
+[157/407] lesoes de Pedro Augusto (1355263)
+  -> 0 lesoes
+[158/407] lesoes de Andrey Fernandes (1364577)
+  -> 0 lesoes
+[159/407] lesoes de Diego Minete (1423022)
+  -> 0 lesoes
+[160/407] lesoes de Marcelo (1091605)
+  -> 0 lesoes
+[161/407] lesoes de Vitor Lamounier (1412424)
+  -> 0 lesoes
+[162/407] lesoes de Bruno Alves (1083247)
+  -> 0 lesoes
+[163/407] lesoes de Janderson (1097224)
+  -> 1 lesoes
+[164/407] lesoes de Kauã Prates (1275068)
+  -> 2 lesoes
+[165/407] lesoes de Nicolas Pontes (1253812)
+  -> 0 lesoes
+[166/407] lesoes de Kauã Moraes (1388409)
+  -> 1 lesoes
+[167/407] lesoes de Murilo Rhikman (1083245)
+  -> 0 lesoes
+[168/407] lesoes de Ryan Guilherme (877787)
+  -> 1 lesoes
+[169/407] lesoes de Rhuan Gabriel (1091607)
+  -> 0 lesoes
+[170/407] lesoes de Cauan Baptistella (1275071)
+  -> 0 lesoes
+[171/407] lesoes de Luis Sinisterra (512385)
+  -> 16 lesoes
+[172/407] lesoes de Keny Arroyo (1074584)
+  -> 1 lesoes
+[173/407] lesoes de Rayan Lelis (1297910)
+  -> 0 lesoes
+[174/407] lesoes de Cadu (1088801)
+  -> 0 lesoes
+[175/407] lesoes de Fernando Vera (1253988)
+  -> 0 lesoes
+[176/407] lesoes de Guilherme Gama (1368351)
+  -> 0 lesoes
+[177/407] lesoes de Fabrizio Angileri (268506)
+  -> 9 lesoes
+[178/407] lesoes de Gabriel Caipira (1088802)
+  -> 0 lesoes
+[179/407] lesoes de João Vitor (1370310)
+  -> 0 lesoes
+[180/407] lesoes de André (1221818)
+  -> 4 lesoes
+[181/407] lesoes de Bahia (1004739)
+  -> 0 lesoes
+[182/407] lesoes de Luiz Eduardo (1096840)
+  -> 0 lesoes
+[183/407] lesoes de Gui Amorim (1488788)
+  -> 0 lesoes
+[184/407] lesoes de Kauê Furquim (1423021)
+  -> 0 lesoes
+[185/407] lesoes de Dieguinho (1257132)
+  -> 0 lesoes
+[186/407] lesoes de João Pedro (1202380)
+  -> 0 lesoes
+[187/407] lesoes de Rafael Tolói (72441)
+  -> 36 lesoes
+[188/407] lesoes de Pedro Andrade (1027023)
+  -> 0 lesoes
+[189/407] lesoes de Wendell (228433)
+  -> 13 lesoes
+[190/407] lesoes de Enzo Díaz (540458)
+  -> 9 lesoes
+[191/407] lesoes de Guilherme Reis (1219852)
+  -> 0 lesoes
+[192/407] lesoes de Nicolas (1387007)
+  -> 1 lesoes
+[193/407] lesoes de Cédric Soares (112988)
+  -> 16 lesoes
+[194/407] lesoes de Maílton (607210)
+  -> 1 lesoes
+[195/407] lesoes de Maik (1027026)
+  -> 1 lesoes
+[196/407] lesoes de Hugo (1094501)
+  -> 1 lesoes
+[197/407] lesoes de Pedro Bezerra (1355275)
+  -> 0 lesoes
+[198/407] lesoes de Oscar (85314)
+  -> 10 lesoes
+[199/407] lesoes de Matheus Alves (1127813)
+  -> 1 lesoes
+[200/407] lesoes de Pedro Ferreira (1362701)
+  -> 0 lesoes
+  [checkpoint] salvo apos 200 jogadores deste run
+[201/407] lesoes de Lucca (1269378)
+  -> 4 lesoes
+[202/407] lesoes de Gonzalo Tapia (662739)
+  -> 3 lesoes
+[203/407] lesoes de Paulinho (1219851)
+  -> 1 lesoes
+[204/407] lesoes de Dênis Júnior (650517)
+  -> 0 lesoes
+[205/407] lesoes de Santiago Ramos Mingo (688593)
+  -> 7 lesoes
+[206/407] lesoes de Fredi Gomes (1254082)
+  -> 0 lesoes
+[207/407] lesoes de Daniel Lima (1355789)
+  -> 0 lesoes
+[208/407] lesoes de Gustavo Santana (1408362)
+  -> 0 lesoes
+[209/407] lesoes de Roger Ruan (1092705)
+  -> 0 lesoes
+[210/407] lesoes de Saymon (1355776)
+  -> 0 lesoes
+[211/407] lesoes de Guilherme Soares (1355787)
+  -> 0 lesoes
+[212/407] lesoes de David Martins (1255012)
+  -> 0 lesoes
+[213/407] lesoes de Mateo Sanabria (984480)
+  -> 4 lesoes
+[214/407] lesoes de Erick Pulga (936544)
+  -> 2 lesoes
+[215/407] lesoes de Gustavo Ulguim (1265346)
+  -> 0 lesoes
+[216/407] lesoes de Lyan Araújo (1420525)
+  -> 0 lesoes
+[217/407] lesoes de Willian José (122155)
+  -> 14 lesoes
+[218/407] lesoes de Dell (1328021)
+  -> 0 lesoes
+[219/407] lesoes de Marcelo Pitaluga (662334)
+  -> 0 lesoes
+[220/407] lesoes de Juan Pablo Freytes (628750)
+  -> 2 lesoes
+[221/407] lesoes de Davi Schuindt (1083635)
+  -> 0 lesoes
+[222/407] lesoes de Caio Amaral (1083668)
+  -> 0 lesoes
+[223/407] lesoes de João Loiola (1116636)
+  -> 0 lesoes
+[224/407] lesoes de Gustavo Cintra (1124886)
+  -> 0 lesoes
+[225/407] lesoes de Rodrigo Gomes (1364984)
+  -> 0 lesoes
+[226/407] lesoes de Breno (1364987)
+  -> 0 lesoes
+[227/407] lesoes de Léo Jance (1219751)
+  -> 0 lesoes
+[228/407] lesoes de Vagno (1355364)
+  -> 0 lesoes
+[229/407] lesoes de Kaio (1275117)
+  -> 0 lesoes
+[230/407] lesoes de Marcão (1089612)
+  -> 0 lesoes
+[231/407] lesoes de Fabinho (1116637)
+  -> 0 lesoes
+[232/407] lesoes de Davi Melo (1219753)
+  -> 0 lesoes
+[233/407] lesoes de Oliver Martins (1364986)
+  -> 0 lesoes
+[234/407] lesoes de Luciano Acosta (315169)
+  -> 6 lesoes
+[235/407] lesoes de Rubén Lezcano (1039533)
+  -> 0 lesoes
+[236/407] lesoes de Isac (1094537)
+  -> 0 lesoes
+[237/407] lesoes de Joaquín Lavega (895926)
+  -> 0 lesoes
+[238/407] lesoes de Wesley Natã (1339559)
+  -> 0 lesoes
+[239/407] lesoes de Santiago Moreno (654766)
+  -> 3 lesoes
+[240/407] lesoes de Marlon (1124887)
+  -> 0 lesoes
+[241/407] lesoes de Luan Brito (851542)
+  -> 0 lesoes
+[242/407] lesoes de Kelwin (1219750)
+  -> 0 lesoes
+[243/407] lesoes de Keven Samuel (1355365)
+  -> 0 lesoes
+[244/407] lesoes de Lucas Felipe (1364988)
+  -> 0 lesoes
+[245/407] lesoes de Fernando Costa (1084076)
+  -> 0 lesoes
+[246/407] lesoes de Guzmán Rodríguez (732899)
+  -> 2 lesoes
+[247/407] lesoes de Stanley Boateng (1218994)
+  -> 0 lesoes
+[248/407] lesoes de Cauê Nascimento (1223728)
+  -> 1 lesoes
+[249/407] lesoes de Agustín Sant'Anna (400661)
+  -> 16 lesoes
+[250/407] lesoes de Vinícius Lago (1084603)
+  -> 0 lesoes
+  [checkpoint] salvo apos 250 jogadores deste run
+[251/407] lesoes de André Cardoso (1082603)
+  -> 0 lesoes
+[252/407] lesoes de Athyrson (1082521)
+  -> 0 lesoes
+[253/407] lesoes de Davi Gomes (1222308)
+  -> 2 lesoes
+[254/407] lesoes de Fernando (550495)
+  -> 14 lesoes
+[255/407] lesoes de Juninho (383638)
+  -> 2 lesoes
+[256/407] lesoes de Pedro Kauã (1253924)
+  -> 0 lesoes
+[257/407] lesoes de Pablo (1223833)
+  -> 0 lesoes
+[258/407] lesoes de Alisson (1471677)
+  -> 0 lesoes
+[259/407] lesoes de Alan Benítez (344676)
+  -> 1 lesoes
+[260/407] lesoes de Yan (1093267)
+  -> 0 lesoes
+[261/407] lesoes de Bernardo Jacob (1259705)
+  -> 0 lesoes
+[262/407] lesoes de Benjamin (1312046)
+  -> 2 lesoes
+[263/407] lesoes de Alan Rodríguez (465817)
+  -> 15 lesoes
+[264/407] lesoes de Gustavo (1116614)
+  -> 1 lesoes
+[265/407] lesoes de Allex (1220008)
+  -> 2 lesoes
+[266/407] lesoes de Johan Carbonero (572042)
+  -> 12 lesoes
+[267/407] lesoes de Marlinho (1116543)
+  -> 0 lesoes
+[268/407] lesoes de João Victor (1362460)
+  -> 0 lesoes
+[269/407] lesoes de Raykkonen (1355429)
+  -> 0 lesoes
+[270/407] lesoes de Helton Leite (175383)
+  -> 4 lesoes
+[271/407] lesoes de Eduardo (1311458)
+  -> 0 lesoes
+[272/407] lesoes de Gastón Ávila (748601)
+  -> 6 lesoes
+[273/407] lesoes de Gustavo Mancha (1082582)
+  -> 1 lesoes
+[274/407] lesoes de Cristovam (1255323)
+  -> 0 lesoes
+[275/407] lesoes de Rodrigo Santos (869477)
+  -> 2 lesoes
+[276/407] lesoes de Pol Fernández (220647)
+  -> 3 lesoes
+[277/407] lesoes de Matheus Pereira (323934)
+  -> 5 lesoes
+[278/407] lesoes de Pablo Roberto (592375)
+  -> 0 lesoes
+[279/407] lesoes de Bruninho (1097187)
+  -> 0 lesoes
+[280/407] lesoes de Yeison Guzmán (498687)
+  -> 0 lesoes
+[281/407] lesoes de Lucas Emanoel (1279322)
+  -> 0 lesoes
+[282/407] lesoes de Lucca Prior (1082523)
+  -> 2 lesoes
+[283/407] lesoes de Michael Quarcoo (1222630)
+  -> 0 lesoes
+[284/407] lesoes de José Herrera (668953)
+  -> 4 lesoes
+[285/407] lesoes de Adam Bareiro (514120)
+  -> 7 lesoes
+[286/407] lesoes de Kauê Canela (1093906)
+  -> 0 lesoes
+[287/407] lesoes de Caio Wesley (1365425)
+  -> 0 lesoes
+[288/407] lesoes de Caíque França (408850)
+  -> 0 lesoes
+[289/407] lesoes de Denis (75102)
+  -> 4 lesoes
+[290/407] lesoes de Adriano (738411)
+  -> 0 lesoes
+[291/407] lesoes de Davi (1223634)
+  -> 0 lesoes
+[292/407] lesoes de Kauã (1365903)
+  -> 0 lesoes
+[293/407] lesoes de João Silva (461903)
+  -> 1 lesoes
+[294/407] lesoes de Rafael Thyere (292152)
+  -> 9 lesoes
+[295/407] lesoes de Chico (612342)
+  -> 0 lesoes
+[296/407] lesoes de Renzo (866842)
+  -> 1 lesoes
+[297/407] lesoes de Marcelo Ajul (910216)
+  -> 0 lesoes
+[298/407] lesoes de Patrick (1130054)
+  -> 0 lesoes
+[299/407] lesoes de Felype (1225115)
+  -> 0 lesoes
+[300/407] lesoes de Rafinha (1365898)
+  -> 0 lesoes
+  [checkpoint] salvo apos 300 jogadores deste run
+[301/407] lesoes de Riquelme (1366040)
+  -> 0 lesoes
+[302/407] lesoes de Felipinho (798167)
+  -> 2 lesoes
+[303/407] lesoes de Gabriel Henrique (1365902)
+  -> 0 lesoes
+[304/407] lesoes de Victor Hugo (1459871)
+  -> 1 lesoes
+[305/407] lesoes de Fabricio Domínguez (621793)
+  -> 5 lesoes
+[306/407] lesoes de Hereda (634139)
+  -> 1 lesoes
+[307/407] lesoes de Netinho (1101123)
+  -> 0 lesoes
+[308/407] lesoes de Cauã Berrío (1363174)
+  -> 0 lesoes
+[309/407] lesoes de Christian Rivera (426324)
+  -> 0 lesoes
+[310/407] lesoes de Pedro Martins (866884)
+  -> 0 lesoes
+[311/407] lesoes de Vitor Neves (1092590)
+  -> 0 lesoes
+[312/407] lesoes de Breno Santos (1223680)
+  -> 0 lesoes
+[313/407] lesoes de Dedé (1355333)
+  -> 0 lesoes
+[314/407] lesoes de Adriel (1365896)
+  -> 0 lesoes
+[315/407] lesoes de Ramon (1365899)
+  -> 0 lesoes
+[316/407] lesoes de Luizinho (1365901)
+  -> 0 lesoes
+[317/407] lesoes de Zé Lucas (1365897)
+  -> 0 lesoes
+[318/407] lesoes de Sérgio Oliveira (112465)
+  -> 15 lesoes
+[319/407] lesoes de Lucas André (918663)
+  -> 0 lesoes
+[320/407] lesoes de Luiz Henrique (1130056)
+  -> 0 lesoes
+[321/407] lesoes de Christian Ortíz (126239)
+  -> 1 lesoes
+[322/407] lesoes de Cláudio (1223679)
+  -> 0 lesoes
+[323/407] lesoes de Jefinho (1365895)
+  -> 0 lesoes
+[324/407] lesoes de Marco Polo (1365904)
+  -> 0 lesoes
+[325/407] lesoes de Lenny Lobato (865028)
+  -> 0 lesoes
+[326/407] lesoes de Rodrigo Atencio (1013922)
+  -> 1 lesoes
+[327/407] lesoes de Kayan (1223636)
+  -> 0 lesoes
+[328/407] lesoes de Felipinho (1365900)
+  -> 0 lesoes
+[329/407] lesoes de Ignacio Ramírez (402079)
+  -> 5 lesoes
+[330/407] lesoes de Gonçalo Paciência (181547)
+  -> 20 lesoes
+[331/407] lesoes de Enzo Vagner (1027788)
+  -> 0 lesoes
+[332/407] lesoes de Riquelmy (1090768)
+  -> 0 lesoes
+[333/407] lesoes de Dieguinho (1225472)
+  -> 0 lesoes
+[334/407] lesoes de Micael (1307874)
+  -> 0 lesoes
+[335/407] lesoes de Pedro Rangel (1367442)
+  -> 0 lesoes
+[336/407] lesoes de Davi Barbosa (1223832)
+  -> 0 lesoes
+[337/407] lesoes de Luis Eduardo (1261183)
+  -> 0 lesoes
+[338/407] lesoes de Kauan (1362167)
+  -> 0 lesoes
+[339/407] lesoes de Pedro Henrique (1223830)
+  -> 0 lesoes
+[340/407] lesoes de Kauan Vitor (1427404)
+  -> 0 lesoes
+[341/407] lesoes de Maykon Jesus (1220181)
+  -> 0 lesoes
+[342/407] lesoes de Gean (1362170)
+  -> 0 lesoes
+[343/407] lesoes de Emerson Buiu (1365180)
+  -> 0 lesoes
+[344/407] lesoes de Rúben Ismael (468332)
+  -> 2 lesoes
+[345/407] lesoes de Lucas Lohan (1222762)
+  -> 0 lesoes
+[346/407] lesoes de Wanderson (1261179)
+  -> 0 lesoes
+[347/407] lesoes de Rúben Rodrigues (531674)
+  -> 0 lesoes
+[348/407] lesoes de Bruno Xavier (537386)
+  -> 0 lesoes
+[349/407] lesoes de Kike Saverio (388519)
+  -> 9 lesoes
+[350/407] lesoes de Wendell Sacramento (1215842)
+  -> 0 lesoes
+  [checkpoint] salvo apos 350 jogadores deste run
+[351/407] lesoes de Marcos Cabrobó (1364790)
+  -> 0 lesoes
+[352/407] lesoes de Felipe Cardoso (1084626)
+  -> 0 lesoes
+[353/407] lesoes de Aitor Cantalapiedra (323740)
+  -> 4 lesoes
+[354/407] lesoes de Romarinho (193925)
+  -> 3 lesoes
+[355/407] lesoes de Renzo López (248030)
+  -> 6 lesoes
+[356/407] lesoes de Fabri (642589)
+  -> 6 lesoes
+[357/407] lesoes de Emanoel (1362175)
+  -> 0 lesoes
+[358/407] lesoes de Bruno Ferreira (214701)
+  -> 1 lesoes
+[359/407] lesoes de Willian Machado (592340)
+  -> 0 lesoes
+[360/407] lesoes de Gabriel Rocha (1096080)
+  -> 0 lesoes
+[361/407] lesoes de Vini Uchella (1219008)
+  -> 0 lesoes
+[362/407] lesoes de Eric (1100070)
+  -> 0 lesoes
+[363/407] lesoes de Fabiano (657387)
+  -> 3 lesoes
+[364/407] lesoes de Pedro Esli (1362881)
+  -> 0 lesoes
+[365/407] lesoes de Alejandro Martínez (729356)
+  -> 2 lesoes
+[366/407] lesoes de Antonio Galeano (491599)
+  -> 0 lesoes
+[367/407] lesoes de Gabriel Silva (1083218)
+  -> 0 lesoes
+[368/407] lesoes de Zé Neto (1116367)
+  -> 0 lesoes
+[369/407] lesoes de Jorge Recalde (282145)
+  -> 0 lesoes
+[370/407] lesoes de Aylon (329845)
+  -> 1 lesoes
+[371/407] lesoes de Bruninho (1355412)
+  -> 0 lesoes
+[372/407] lesoes de Guilherme Luiz (1116387)
+  -> 1 lesoes
+[373/407] lesoes de Gastón Guruceaga (266070)
+  -> 1 lesoes
+[374/407] lesoes de Marcão (160188)
+  -> 0 lesoes
+[375/407] lesoes de Ruan Carneiro (203822)
+  -> 0 lesoes
+[376/407] lesoes de Zé Henrique (1031409)
+  -> 0 lesoes
+[377/407] lesoes de Bernardo (994029)
+  -> 0 lesoes
+[378/407] lesoes de Clébio (1096272)
+  -> 0 lesoes
+[379/407] lesoes de Reginaldo (329738)
+  -> 0 lesoes
+[380/407] lesoes de Gabriel Souza (979931)
+  -> 0 lesoes
+[381/407] lesoes de Daniel Giraldo (185246)
+  -> 1 lesoes
+[382/407] lesoes de Hudson (993566)
+  -> 0 lesoes
+[383/407] lesoes de Luiz Henrique (1017824)
+  -> 0 lesoes
+[384/407] lesoes de Giovanny (379369)
+  -> 2 lesoes
+[385/407] lesoes de Ênio (740085)
+  -> 0 lesoes
+[386/407] lesoes de Edison Negueba (976103)
+  -> 0 lesoes
+[387/407] lesoes de Vitor Pernambuco (654384)
+  -> 2 lesoes
+[388/407] lesoes de Emerson Batalla (747148)
+  -> 0 lesoes
+[389/407] lesoes de Emerson Galego (1047465)
+  -> 1 lesoes
+[390/407] lesoes de João Scatolin (1470544)
+  -> 0 lesoes
+[391/407] lesoes de Bruno Bertinato (323929)
+  -> 0 lesoes
+[392/407] lesoes de Thomazella (143855)
+  -> 0 lesoes
+[393/407] lesoes de Lacerda (899026)
+  -> 1 lesoes
+[394/407] lesoes de Luizão (381032)
+  -> 2 lesoes
+[395/407] lesoes de Leonan Santos (1152256)
+  -> 0 lesoes
+[396/407] lesoes de Jemmes (1141364)
+  -> 2 lesoes
+[397/407] lesoes de Ramires (1360805)
+  -> 0 lesoes
+[398/407] lesoes de Lucas Ramon (378189)
+  -> 3 lesoes
+[399/407] lesoes de Wesley Santos (1065802)
+  -> 0 lesoes
+[400/407] lesoes de Danielzinho (292731)
+  -> 2 lesoes
+  [checkpoint] salvo apos 400 jogadores deste run
+[401/407] lesoes de Aldo Filho (644204)
+  -> 1 lesoes
+[402/407] lesoes de Gabriel (174570)
+  -> 8 lesoes
+[403/407] lesoes de Guilherme Pato (742025)
+  -> 1 lesoes
+[404/407] lesoes de Negueba (680681)
+  -> 3 lesoes
+[405/407] lesoes de Everton Maceió (1097174)
+  -> 0 lesoes
+[406/407] lesoes de Chico da Costa (559602)
+  -> 4 lesoes
+[407/407] lesoes de Cristian Renato (1004065)
+  -> 0 lesoes
+
+6255 lesoes de 1278 jogadores com historico -> /home/eduardo/Documentos/8 Periodo/Estimativa_risco_lesao/data/processed/injuries_raw.csv
+jogadores cobertos no checkpoint: 2371
+[checkpoint] 1964 jogadores ja processados — retomando
+[1/407] desempenho de Léo Nannetti (1370606)
+  -> 194 partidas, 2810 minutos
+[2/407] desempenho de Gabriel Werneck (1488557)
+  -> 25 partidas, 630 minutos
+[3/407] desempenho de Danilo (145707)
+  -> 1206 partidas, 57839 minutos
+[4/407] desempenho de Felipe Vieira (1087844)
+  -> 197 partidas, 1111 minutos
+[5/407] desempenho de Wesley Juan (1097844)
+  -> 97 partidas, 493 minutos
+[6/407] desempenho de Pedro Fachinetti (1355835)
+  -> 8 partidas, 24 minutos
+[7/407] desempenho de Johnny Góes (1363404)
+  -> 180 partidas, 1475 minutos
+[8/407] desempenho de Yago Melo (1393375)
+  -> 52 partidas, 777 minutos
+[9/407] desempenho de Emerson Royal (476344)
+  -> 670 partidas, 25420 minutos
+[10/407] desempenho de Gusttavo Sousa (1277007)
+  -> 214 partidas, 3334 minutos
+[11/407] desempenho de Wanderson Jr (1355839)
+  -> 46 partidas, 1146 minutos
+[12/407] desempenho de Guilherme Santos (1364722)
+  -> 111 partidas, 2 minutos
+[13/407] desempenho de Jorginho (102017)
+  -> 997 partidas, 53607 minutos
+[14/407] desempenho de Pablo (1332141)
+  -> 181 partidas, 2319 minutos
+[15/407] desempenho de Lucas Vieira (1355836)
+  -> 172 partidas, 653 minutos
+[16/407] desempenho de Luiz Felipe (1376049)
+  -> 66 partidas, 906 minutos
+[17/407] desempenho de Saúl Ñíguez (148928)
+  -> 1019 partidas, 46485 minutos
+[18/407] desempenho de Bruno (1232718)
+  -> 66 partidas, 142 minutos
+[19/407] desempenho de Jorge Carrascal (354145)
+  -> 559 partidas, 19431 minutos
+[20/407] desempenho de Rafael Vargas (1275143)
+  -> 134 partidas, 172 minutos
+[21/407] desempenho de Joshua (1321884)
+  -> 174 partidas, 1254 minutos
+[22/407] desempenho de Samuel Lino (694928)
+  -> 390 partidas, 20307 minutos
+[23/407] desempenho de Douglas Telles (1220787)
+  -> 120 partidas, 850 minutos
+[24/407] desempenho de Juninho (424676)
+  -> 627 partidas, 18345 minutos
+[25/407] desempenho de Guilherme Sousa (1260203)
+  -> 147 partidas, 694 minutos
+[26/407] desempenho de João Camargo (1355838)
+  -> 103 partidas, 356 minutos
+[27/407] desempenho de César Rodrigues (1004722)
+  -> 107 partidas, 2300 minutos
+[28/407] desempenho de Luiz Sá (1222227)
+  -> 163 partidas, 90 minutos
+[29/407] desempenho de Kauan Lima (1229317)
+  -> 161 partidas, 3173 minutos
+[30/407] desempenho de Aranha (1093863)
+  -> 182 partidas, 4305 minutos
+[31/407] desempenho de Arthur Gabriel (1115722)
+  -> 191 partidas, 7559 minutos
+[32/407] desempenho de Gilberto Junior (1093864)
+  -> 161 partidas, 6798 minutos
+[33/407] desempenho de Luis Pacheco (1268048)
+  -> 160 partidas, 1746 minutos
+[34/407] desempenho de Larson (1116605)
+  -> 173 partidas, 4570 minutos
+[35/407] desempenho de Rafael Coutinho (1221390)
+  -> 161 partidas, 6860 minutos
+[36/407] desempenho de Erick Belé (1180021)
+  -> 191 partidas, 4085 minutos
+[37/407] desempenho de Ramón Sosa (745191)
+  -> 392 partidas, 16735 minutos
+[38/407] desempenho de Facundo Torres (465822)
+  -> 426 partidas, 23824 minutos
+[39/407] desempenho de Allan (1082631)
+  -> 222 partidas, 8255 minutos
+[40/407] desempenho de Heittor (1380266)
+  -> 121 partidas, 3250 minutos
+[41/407] desempenho de Thalys (1072157)
+  -> 202 partidas, 6004 minutos
+[42/407] desempenho de Neto (111819)
+  -> 1017 partidas, 31825 minutos
+[43/407] desempenho de Cristhian Loor (1074501)
+  -> 242 partidas, 2520 minutos
+[44/407] desempenho de Cristiano Junior (1219240)
+  -> 69 partidas, 1890 minutos
+[45/407] desempenho de Cléber Lucas (1416506)
+  -> 41 partidas, 1665 minutos
+[46/407] desempenho de Kaio (523363)
+  -> 524 partidas, 13488 minutos
+[47/407] desempenho de Ryan Couto (1027027)
+  -> 120 partidas, 1371 minutos
+[48/407] desempenho de Gabriel Justino (1127043)
+  -> 134 partidas, 5733 minutos
+[49/407] desempenho de Kauã Branco (1222581)
+  -> 176 partidas, 3920 minutos
+[50/407] desempenho de Gabriel Bahia (1128780)
+  -> 239 partidas, 5303 minutos
+  [checkpoint] salvo apos 50 jogadores deste run
+[51/407] desempenho de Lucyo (1253931)
+  -> 45 partidas, 1838 minutos
+[52/407] desempenho de Kaique Pereira (1263464)
+  -> 27 partidas, 183 minutos
+[53/407] desempenho de Gabriel Abdias (1363516)
+  -> 118 partidas, 1212 minutos
+[54/407] desempenho de Kauê Leonardo (1124214)
+  -> 102 partidas, 6113 minutos
+[55/407] desempenho de Lucas Camilo (1004726)
+  -> 226 partidas, 2505 minutos
+[56/407] desempenho de Marquinhos (1284052)
+  -> 118 partidas, 1912 minutos
+[57/407] desempenho de Huguinho (1364573)
+  -> 142 partidas, 4651 minutos
+[58/407] desempenho de Santiago Rodríguez (465819)
+  -> 438 partidas, 20534 minutos
+[59/407] desempenho de Jordan Barrera (1087334)
+  -> 219 partidas, 5899 minutos
+[60/407] desempenho de Kauan Lindes (1222625)
+  -> 144 partidas, 2054 minutos
+[61/407] desempenho de Cauã Zappelini (1284051)
+  -> 121 partidas, 1674 minutos
+[62/407] desempenho de Caio Valle (1360833)
+  -> 178 partidas, 2751 minutos
+[63/407] desempenho de Gabriel Justino (525257)
+  -> 159 partidas, 2382 minutos
+[64/407] desempenho de Álvaro Montoro (1228194)
+  -> 255 partidas, 6950 minutos
+[65/407] desempenho de Kauan Toledo (1096605)
+  -> 198 partidas, 4583 minutos
+[66/407] desempenho de Rafael Lobato (1097263)
+  -> 162 partidas, 3747 minutos
+[67/407] desempenho de Joaquín Correa (227081)
+  -> 798 partidas, 25026 minutos
+[68/407] desempenho de Arthur Cabral (390638)
+  -> 606 partidas, 23895 minutos
+[69/407] desempenho de Chris Ramos (538810)
+  -> 413 partidas, 16994 minutos
+[70/407] desempenho de Elias Manoel (813044)
+  -> 302 partidas, 7579 minutos
+[71/407] desempenho de Valentín Adamo (982526)
+  -> 223 partidas, 4298 minutos
+[72/407] desempenho de Kayke Queiroz (1219248)
+  -> 171 partidas, 2659 minutos
+[73/407] desempenho de Kadir Barría (1464878)
+  -> 112 partidas, 1495 minutos
+[74/407] desempenho de Gabriel Brazão (371247)
+  -> 487 partidas, 14962 minutos
+[75/407] desempenho de Adonis Frías (598838)
+  -> 492 partidas, 23064 minutos
+[76/407] desempenho de Alexis Duarte (491587)
+  -> 398 partidas, 16512 minutos
+[77/407] desempenho de Luan Peres (347913)
+  -> 671 partidas, 28192 minutos
+[78/407] desempenho de Luisão (1093922)
+  -> 221 partidas, 7829 minutos
+[79/407] desempenho de João Alencar (1117807)
+  -> 166 partidas, 3934 minutos
+[80/407] desempenho de João Ananias (1256755)
+  -> 143 partidas, 4502 minutos
+[81/407] desempenho de Vinicius Lira (1253844)
+  -> 162 partidas, 3882 minutos
+[82/407] desempenho de Souza (1086258)
+  -> 210 partidas, 4043 minutos
+[83/407] desempenho de JP Chermont (1089955)
+  -> 193 partidas, 5764 minutos
+[84/407] desempenho de João Schmidt (198859)
+  -> 808 partidas, 28990 minutos
+[85/407] desempenho de Gustavinho (1101124)
+  -> 192 partidas, 6731 minutos
+[86/407] desempenho de Diego Pituca (546000)
+  -> 538 partidas, 33745 minutos
+[87/407] desempenho de Hyan (1082852)
+  -> 220 partidas, 2765 minutos
+[88/407] desempenho de Gabriel Bontempo (1089958)
+  -> 171 partidas, 7848 minutos
+[89/407] desempenho de Neymar (68290)
+  -> 1298 partidas, 64995 minutos
+[90/407] desempenho de Gustavo Caballero (891672)
+  -> 291 partidas, 10183 minutos
+[91/407] desempenho de Mateus Xavier (1220141)
+  -> 219 partidas, 3723 minutos
+[92/407] desempenho de Benjamín Rollheiser (491704)
+  -> 436 partidas, 13065 minutos
+[93/407] desempenho de Billal Brahimi (543051)
+  -> 396 partidas, 12306 minutos
+[94/407] desempenho de Andrey Quintino (816149)
+  -> 246 partidas, 2610 minutos
+[95/407] desempenho de Robinho Junior (1355385)
+  -> 113 partidas, 1332 minutos
+[96/407] desempenho de Wendel (589911)
+  -> 365 partidas, 13542 minutos
+[97/407] desempenho de Rafael Freitas (1077154)
+  -> 148 partidas, 1491 minutos
+[98/407] desempenho de Luca Meirelles (1220143)
+  -> 159 partidas, 3777 minutos
+[99/407] desempenho de Pedro Cobra (1193865)
+  -> 212 partidas, 2430 minutos
+[100/407] desempenho de Robert (1124553)
+  -> 173 partidas, 2700 minutos
+  [checkpoint] salvo apos 100 jogadores deste run
+[101/407] desempenho de Dudu Cruz (1086534)
+  -> 138 partidas, 3557 minutos
+[102/407] desempenho de Renan Santana (1096224)
+  -> 120 partidas, 5735 minutos
+[103/407] desempenho de Vitão (1355486)
+  -> 128 partidas, 2949 minutos
+[104/407] desempenho de Iván Román (1101447)
+  -> 249 partidas, 7361 minutos
+[105/407] desempenho de Pedro Oliveira (1275582)
+  -> 141 partidas, 1413 minutos
+[106/407] desempenho de Kayque (980823)
+  -> 157 partidas, 3195 minutos
+[107/407] desempenho de Zé Phelipe (1098726)
+  -> 69 partidas, 1979 minutos
+[108/407] desempenho de Kauan Guilherme (1124552)
+  -> 85 partidas, 1733 minutos
+[109/407] desempenho de Denilson (1261577)
+  -> 54 partidas, 1290 minutos
+[110/407] desempenho de David Kauã (1093865)
+  -> 182 partidas, 2943 minutos
+[111/407] desempenho de Índio (1339551)
+  -> 105 partidas, 837 minutos
+[112/407] desempenho de Eric Soares (1367322)
+  -> 146 partidas, 1659 minutos
+[113/407] desempenho de Reinier (627226)
+  -> 458 partidas, 9232 minutos
+[114/407] desempenho de Mateus Iseppe (1220180)
+  -> 123 partidas, 1444 minutos
+[115/407] desempenho de Alisson Souza (1270605)
+  -> 117 partidas, 1707 minutos
+[116/407] desempenho de Ryan Felipe (1261644)
+  -> 122 partidas, 764 minutos
+[117/407] desempenho de Gabriel Veneno (1383406)
+  -> 44 partidas, 266 minutos
+[118/407] desempenho de Pedro Ataíde (1096223)
+  -> 138 partidas, 1814 minutos
+[119/407] desempenho de Lucas Louback (1220182)
+  -> 132 partidas, 2193 minutos
+[120/407] desempenho de Lucas Daniel (1222572)
+  -> 131 partidas, 1712 minutos
+[121/407] desempenho de Mosquito (1426996)
+  -> 6 partidas, 236 minutos
+[122/407] desempenho de João Marcelo (1344099)
+  -> 120 partidas, 1583 minutos
+[123/407] desempenho de Jorge Meurer (1206621)
+  -> 139 partidas, 2700 minutos
+[124/407] desempenho de Nathan Borges (1219653)
+  -> 135 partidas, 4394 minutos
+[125/407] desempenho de Luis Eduardo (1355268)
+  -> 162 partidas, 2175 minutos
+[126/407] desempenho de Pedro Gabriel (1253927)
+  -> 130 partidas, 4613 minutos
+[127/407] desempenho de Enzo (1139255)
+  -> 174 partidas, 7570 minutos
+[128/407] desempenho de Arthur Melo (362842)
+  -> 721 partidas, 21167 minutos
+[129/407] desempenho de Gustavo Cuéllar (119333)
+  -> 1179 partidas, 45534 minutos
+[130/407] desempenho de Erick Noriega (723853)
+  -> 367 partidas, 13936 minutos
+[131/407] desempenho de Bernardo Zortea (1253926)
+  -> 139 partidas, 3030 minutos
+[132/407] desempenho de Francis Amuzu (423604)
+  -> 482 partidas, 20388 minutos
+[133/407] desempenho de Cristian Olivera (657746)
+  -> 404 partidas, 16080 minutos
+[134/407] desempenho de Gabriel Mec (1228661)
+  -> 174 partidas, 3394 minutos
+[135/407] desempenho de Carlos Vinícius (525287)
+  -> 508 partidas, 17731 minutos
+[136/407] desempenho de Jeferson (1257350)
+  -> 48 partidas, 893 minutos
+[137/407] desempenho de Smiley (1257351)
+  -> 80 partidas, 2989 minutos
+[138/407] desempenho de Daniel Fuzato (438682)
+  -> 537 partidas, 6332 minutos
+[139/407] desempenho de Allan Vitor (1083886)
+  -> 141 partidas, 0 minutos
+[140/407] desempenho de Medina (1364578)
+  -> 22 partidas, 483 minutos
+[141/407] desempenho de Carlos Cuesta (474589)
+  -> 675 partidas, 29139 minutos
+[142/407] desempenho de Gabriel Banga (640275)
+  -> 17 partidas, 0 minutos
+[143/407] desempenho de Walace Falcão (1221660)
+  -> 172 partidas, 939 minutos
+[144/407] desempenho de Bruno André (1355257)
+  -> 124 partidas, 3525 minutos
+[145/407] desempenho de Riquelme (643119)
+  -> 427 partidas, 3528 minutos
+[146/407] desempenho de Riquelme Avellar (1355258)
+  -> 171 partidas, 2837 minutos
+[147/407] desempenho de Alison (1364574)
+  -> 64 partidas, 1598 minutos
+[148/407] desempenho de Breno Vereza (1220467)
+  -> 55 partidas, 2344 minutos
+[149/407] desempenho de Léo Araújo (1364575)
+  -> 27 partidas, 120 minutos
+[150/407] desempenho de Thiago Mendes (135617)
+  -> 833 partidas, 47563 minutos
+  [checkpoint] salvo apos 150 jogadores deste run
+[151/407] desempenho de Euder (1159259)
+  -> 157 partidas, 2189 minutos
+[152/407] desempenho de Diego Ahmed (1364576)
+  -> 25 partidas, 67 minutos
+[153/407] desempenho de Andrés Gómez (957461)
+  -> 337 partidas, 14391 minutos
+[154/407] desempenho de Benjamín Garré (462977)
+  -> 437 partidas, 13804 minutos
+[155/407] desempenho de Nuno Moreira (461937)
+  -> 339 partidas, 15379 minutos
+[156/407] desempenho de Loide Augusto (696693)
+  -> 343 partidas, 9106 minutos
+[157/407] desempenho de Pedro Augusto (1355263)
+  -> 57 partidas, 902 minutos
+[158/407] desempenho de Andrey Fernandes (1364577)
+  -> 195 partidas, 2317 minutos
+[159/407] desempenho de Diego Minete (1423022)
+  -> 49 partidas, 332 minutos
+[160/407] desempenho de Marcelo (1091605)
+  -> 200 partidas, 2430 minutos
+[161/407] desempenho de Vitor Lamounier (1412424)
+  -> 95 partidas, 2430 minutos
+[162/407] desempenho de Bruno Alves (1083247)
+  -> 196 partidas, 4102 minutos
+[163/407] desempenho de Janderson (1097224)
+  -> 182 partidas, 3319 minutos
+[164/407] desempenho de Kauã Prates (1275068)
+  -> 172 partidas, 2869 minutos
+[165/407] desempenho de Nicolas Pontes (1253812)
+  -> 166 partidas, 3208 minutos
+[166/407] desempenho de Kauã Moraes (1388409)
+  -> 142 partidas, 2540 minutos
+[167/407] desempenho de Murilo Rhikman (1083245)
+  -> 214 partidas, 4373 minutos
+[168/407] desempenho de Ryan Guilherme (877787)
+  -> 218 partidas, 7809 minutos
+[169/407] desempenho de Rhuan Gabriel (1091607)
+  -> 170 partidas, 3707 minutos
+[170/407] desempenho de Cauan Baptistella (1275071)
+  -> 96 partidas, 2948 minutos
+[171/407] desempenho de Luis Sinisterra (512385)
+  -> 600 partidas, 16751 minutos
+[172/407] desempenho de Keny Arroyo (1074584)
+  -> 202 partidas, 8392 minutos
+[173/407] desempenho de Rayan Lelis (1297910)
+  -> 124 partidas, 4103 minutos
+[174/407] desempenho de Cadu (1088801)
+  -> 147 partidas, 1918 minutos
+[175/407] desempenho de Fernando Vera (1253988)
+  -> 179 partidas, 3297 minutos
+[176/407] desempenho de Guilherme Gama (1368351)
+  -> 44 partidas, 1036 minutos
+[177/407] desempenho de Fabrizio Angileri (268506)
+  -> 612 partidas, 17812 minutos
+[178/407] desempenho de Gabriel Caipira (1088802)
+  -> 113 partidas, 3671 minutos
+[179/407] desempenho de João Vitor (1370310)
+  -> 119 partidas, 813 minutos
+[180/407] desempenho de André (1221818)
+  -> 113 partidas, 4971 minutos
+[181/407] desempenho de Bahia (1004739)
+  -> 227 partidas, 5108 minutos
+[182/407] desempenho de Luiz Eduardo (1096840)
+  -> 160 partidas, 1965 minutos
+[183/407] desempenho de Gui Amorim (1488788)
+  -> 80 partidas, 860 minutos
+[184/407] desempenho de Kauê Furquim (1423021)
+  -> 113 partidas, 1766 minutos
+[185/407] desempenho de Dieguinho (1257132)
+  -> 171 partidas, 3323 minutos
+[186/407] desempenho de João Pedro (1202380)
+  -> 175 partidas, 3825 minutos
+[187/407] desempenho de Rafael Tolói (72441)
+  -> 1128 partidas, 54605 minutos
+[188/407] desempenho de Pedro Andrade (1027023)
+  -> 190 partidas, 5903 minutos
+[189/407] desempenho de Wendell (228433)
+  -> 906 partidas, 38792 minutos
+[190/407] desempenho de Enzo Díaz (540458)
+  -> 439 partidas, 25349 minutos
+[191/407] desempenho de Guilherme Reis (1219852)
+  -> 147 partidas, 2814 minutos
+[192/407] desempenho de Nicolas (1387007)
+  -> 132 partidas, 1823 minutos
+[193/407] desempenho de Cédric Soares (112988)
+  -> 963 partidas, 38863 minutos
+[194/407] desempenho de Maílton (607210)
+  -> 417 partidas, 16254 minutos
+[195/407] desempenho de Maik (1027026)
+  -> 194 partidas, 4135 minutos
+[196/407] desempenho de Hugo (1094501)
+  -> 160 partidas, 2623 minutos
+[197/407] desempenho de Pedro Bezerra (1355275)
+  -> 125 partidas, 1260 minutos
+[198/407] desempenho de Oscar (85314)
+  -> 1030 partidas, 46808 minutos
+[199/407] desempenho de Matheus Alves (1127813)
+  -> 138 partidas, 4591 minutos
+[200/407] desempenho de Pedro Ferreira (1362701)
+  -> 183 partidas, 2976 minutos
+  [checkpoint] salvo apos 200 jogadores deste run
+[201/407] desempenho de Lucca (1269378)
+  -> 156 partidas, 2268 minutos
+[202/407] desempenho de Gonzalo Tapia (662739)
+  -> 396 partidas, 11722 minutos
+[203/407] desempenho de Paulinho (1219851)
+  -> 177 partidas, 3364 minutos
+[204/407] desempenho de Dênis Júnior (650517)
+  -> 444 partidas, 15120 minutos
+[205/407] desempenho de Santiago Ramos Mingo (688593)
+  -> 404 partidas, 17536 minutos
+[206/407] desempenho de Fredi Gomes (1254082)
+  -> 179 partidas, 3505 minutos
+[207/407] desempenho de Daniel Lima (1355789)
+  -> 43 partidas, 2458 minutos
+[208/407] desempenho de Gustavo Santana (1408362)
+  -> 30 partidas, 150 minutos
+[209/407] desempenho de Roger Ruan (1092705)
+  -> 69 partidas, 1612 minutos
+[210/407] desempenho de Saymon (1355776)
+  -> 49 partidas, 1383 minutos
+[211/407] desempenho de Guilherme Soares (1355787)
+  -> 30 partidas, 820 minutos
+[212/407] desempenho de David Martins (1255012)
+  -> 186 partidas, 3093 minutos
+[213/407] desempenho de Mateo Sanabria (984480)
+  -> 258 partidas, 5183 minutos
+[214/407] desempenho de Erick Pulga (936544)
+  -> 330 partidas, 16997 minutos
+[215/407] desempenho de Gustavo Ulguim (1265346)
+  -> 92 partidas, 2161 minutos
+[216/407] desempenho de Lyan Araújo (1420525)
+  -> 27 partidas, 310 minutos
+[217/407] desempenho de Willian José (122155)
+  -> 1006 partidas, 37159 minutos
+[218/407] desempenho de Dell (1328021)
+  -> 185 partidas, 3301 minutos
+[219/407] desempenho de Marcelo Pitaluga (662334)
+  -> 450 partidas, 4884 minutos
+[220/407] desempenho de Juan Pablo Freytes (628750)
+  -> 328 partidas, 19830 minutos
+[221/407] desempenho de Davi Schuindt (1083635)
+  -> 180 partidas, 1437 minutos
+[222/407] desempenho de Caio Amaral (1083668)
+  -> 179 partidas, 2838 minutos
+[223/407] desempenho de João Loiola (1116636)
+  -> 159 partidas, 3761 minutos
+[224/407] desempenho de Gustavo Cintra (1124886)
+  -> 108 partidas, 3720 minutos
+[225/407] desempenho de Rodrigo Gomes (1364984)
+  -> 139 partidas, 1818 minutos
+[226/407] desempenho de Breno (1364987)
+  -> 32 partidas, 902 minutos
+[227/407] desempenho de Léo Jance (1219751)
+  -> 156 partidas, 2229 minutos
+[228/407] desempenho de Vagno (1355364)
+  -> 85 partidas, 2312 minutos
+[229/407] desempenho de Kaio (1275117)
+  -> 31 partidas, 1390 minutos
+[230/407] desempenho de Marcão (1089612)
+  -> 42 partidas, 667 minutos
+[231/407] desempenho de Fabinho (1116637)
+  -> 78 partidas, 4096 minutos
+[232/407] desempenho de Davi Melo (1219753)
+  -> 58 partidas, 627 minutos
+[233/407] desempenho de Oliver Martins (1364986)
+  -> 31 partidas, 429 minutos
+[234/407] desempenho de Luciano Acosta (315169)
+  -> 565 partidas, 33617 minutos
+[235/407] desempenho de Rubén Lezcano (1039533)
+  -> 282 partidas, 5944 minutos
+[236/407] desempenho de Isac (1094537)
+  -> 168 partidas, 1825 minutos
+[237/407] desempenho de Joaquín Lavega (895926)
+  -> 335 partidas, 8392 minutos
+[238/407] desempenho de Wesley Natã (1339559)
+  -> 120 partidas, 3059 minutos
+[239/407] desempenho de Santiago Moreno (654766)
+  -> 357 partidas, 15373 minutos
+[240/407] desempenho de Marlon (1124887)
+  -> 54 partidas, 1775 minutos
+[241/407] desempenho de Luan Brito (851542)
+  -> 249 partidas, 2584 minutos
+[242/407] desempenho de Kelwin (1219750)
+  -> 140 partidas, 3163 minutos
+[243/407] desempenho de Keven Samuel (1355365)
+  -> 72 partidas, 1873 minutos
+[244/407] desempenho de Lucas Felipe (1364988)
+  -> 132 partidas, 55 minutos
+[245/407] desempenho de Fernando Costa (1084076)
+  -> 145 partidas, 1170 minutos
+[246/407] desempenho de Guzmán Rodríguez (732899)
+  -> 343 partidas, 18258 minutos
+[247/407] desempenho de Stanley Boateng (1218994)
+  -> 172 partidas, 2144 minutos
+[248/407] desempenho de Cauê Nascimento (1223728)
+  -> 145 partidas, 3919 minutos
+[249/407] desempenho de Agustín Sant'Anna (400661)
+  -> 514 partidas, 20884 minutos
+[250/407] desempenho de Vinícius Lago (1084603)
+  -> 151 partidas, 3619 minutos
+  [checkpoint] salvo apos 250 jogadores deste run
+[251/407] desempenho de André Cardoso (1082603)
+  -> 149 partidas, 971 minutos
+[252/407] desempenho de Athyrson (1082521)
+  -> 161 partidas, 1355 minutos
+[253/407] desempenho de Davi Gomes (1222308)
+  -> 131 partidas, 2582 minutos
+[254/407] desempenho de Fernando (550495)
+  -> 442 partidas, 6568 minutos
+[255/407] desempenho de Juninho (383638)
+  -> 697 partidas, 30432 minutos
+[256/407] desempenho de Pedro Kauã (1253924)
+  -> 139 partidas, 2159 minutos
+[257/407] desempenho de Pablo (1223833)
+  -> 150 partidas, 1286 minutos
+[258/407] desempenho de Alisson (1471677)
+  -> 64 partidas, 234 minutos
+[259/407] desempenho de Alan Benítez (344676)
+  -> 700 partidas, 22990 minutos
+[260/407] desempenho de Yan (1093267)
+  -> 137 partidas, 2039 minutos
+[261/407] desempenho de Bernardo Jacob (1259705)
+  -> 92 partidas, 1767 minutos
+[262/407] desempenho de Benjamin (1312046)
+  -> 93 partidas, 529 minutos
+[263/407] desempenho de Alan Rodríguez (465817)
+  -> 362 partidas, 17131 minutos
+[264/407] desempenho de Gustavo (1116614)
+  -> 117 partidas, 1943 minutos
+[265/407] desempenho de Allex (1220008)
+  -> 117 partidas, 2639 minutos
+[266/407] desempenho de Johan Carbonero (572042)
+  -> 464 partidas, 16372 minutos
+[267/407] desempenho de Marlinho (1116543)
+  -> 135 partidas, 2517 minutos
+[268/407] desempenho de João Victor (1362460)
+  -> 137 partidas, 1206 minutos
+[269/407] desempenho de Raykkonen (1355429)
+  -> 122 partidas, 364 minutos
+[270/407] desempenho de Helton Leite (175383)
+  -> 865 partidas, 26327 minutos
+[271/407] desempenho de Eduardo (1311458)
+  -> 23 partidas, 0 minutos
+[272/407] desempenho de Gastón Ávila (748601)
+  -> 378 partidas, 13202 minutos
+[273/407] desempenho de Gustavo Mancha (1082582)
+  -> 183 partidas, 6522 minutos
+[274/407] desempenho de Cristovam (1255323)
+  -> 147 partidas, 1351 minutos
+[275/407] desempenho de Rodrigo Santos (869477)
+  -> 224 partidas, 10508 minutos
+[276/407] desempenho de Pol Fernández (220647)
+  -> 707 partidas, 31774 minutos
+[277/407] desempenho de Matheus Pereira (323934)
+  -> 565 partidas, 20477 minutos
+[278/407] desempenho de Pablo Roberto (592375)
+  -> 404 partidas, 10597 minutos
+[279/407] desempenho de Bruninho (1097187)
+  -> 193 partidas, 3984 minutos
+[280/407] desempenho de Yeison Guzmán (498687)
+  -> 474 partidas, 23776 minutos
+[281/407] desempenho de Lucas Emanoel (1279322)
+  -> 124 partidas, 2599 minutos
+[282/407] desempenho de Lucca Prior (1082523)
+  -> 212 partidas, 3481 minutos
+[283/407] desempenho de Michael Quarcoo (1222630)
+  -> 94 partidas, 2257 minutos
+[284/407] desempenho de José Herrera (668953)
+  -> 266 partidas, 9423 minutos
+[285/407] desempenho de Adam Bareiro (514120)
+  -> 608 partidas, 21518 minutos
+[286/407] desempenho de Kauê Canela (1093906)
+  -> 80 partidas, 2783 minutos
+[287/407] desempenho de Caio Wesley (1365425)
+  -> 72 partidas, 1910 minutos
+[288/407] desempenho de Caíque França (408850)
+  -> 972 partidas, 19907 minutos
+[289/407] desempenho de Denis (75102)
+  -> 1241 partidas, 34936 minutos
+[290/407] desempenho de Adriano (738411)
+  -> 239 partidas, 720 minutos
+[291/407] desempenho de Davi (1223634)
+  -> 101 partidas, 990 minutos
+[292/407] desempenho de Kauã (1365903)
+  -> 7 partidas, 0 minutos
+[293/407] desempenho de João Silva (461903)
+  -> 349 partidas, 16467 minutos
+[294/407] desempenho de Rafael Thyere (292152)
+  -> 898 partidas, 31719 minutos
+[295/407] desempenho de Chico (612342)
+  -> 455 partidas, 15911 minutos
+[296/407] desempenho de Renzo (866842)
+  -> 392 partidas, 5390 minutos
+[297/407] desempenho de Marcelo Ajul (910216)
+  -> 311 partidas, 6873 minutos
+[298/407] desempenho de Patrick (1130054)
+  -> 69 partidas, 447 minutos
+[299/407] desempenho de Felype (1225115)
+  -> 118 partidas, 677 minutos
+[300/407] desempenho de Rafinha (1365898)
+  -> 95 partidas, 700 minutos
+  [checkpoint] salvo apos 300 jogadores deste run
+[301/407] desempenho de Riquelme (1366040)
+  -> 83 partidas, 284 minutos
+[302/407] desempenho de Felipinho (798167)
+  -> 388 partidas, 19582 minutos
+[303/407] desempenho de Gabriel Henrique (1365902)
+  -> 40 partidas, 105 minutos
+[304/407] desempenho de Victor Hugo (1459871)
+  -> 20 partidas, 62 minutos
+[305/407] desempenho de Fabricio Domínguez (621793)
+  -> 409 partidas, 14082 minutos
+[306/407] desempenho de Hereda (634139)
+  -> 470 partidas, 24225 minutos
+[307/407] desempenho de Netinho (1101123)
+  -> 93 partidas, 371 minutos
+[308/407] desempenho de Cauã Berrío (1363174)
+  -> 11 partidas, 472 minutos
+[309/407] desempenho de Christian Rivera (426324)
+  -> 485 partidas, 28607 minutos
+[310/407] desempenho de Pedro Martins (866884)
+  -> 358 partidas, 6259 minutos
+[311/407] desempenho de Vitor Neves (1092590)
+  -> 80 partidas, 134 minutos
+[312/407] desempenho de Breno Santos (1223680)
+  -> 22 partidas, 345 minutos
+[313/407] desempenho de Dedé (1355333)
+  -> 89 partidas, 1030 minutos
+[314/407] desempenho de Adriel (1365896)
+  -> 98 partidas, 552 minutos
+[315/407] desempenho de Ramon (1365899)
+  -> 3 partidas, 102 minutos
+[316/407] desempenho de Luizinho (1365901)
+  -> 3 partidas, 0 minutos
+[317/407] desempenho de Zé Lucas (1365897)
+  -> 149 partidas, 6300 minutos
+[318/407] desempenho de Sérgio Oliveira (112465)
+  -> 942 partidas, 33338 minutos
+[319/407] desempenho de Lucas André (918663)
+  -> 280 partidas, 1530 minutos
+[320/407] desempenho de Luiz Henrique (1130056)
+  -> 81 partidas, 289 minutos
+[321/407] desempenho de Christian Ortíz (126239)
+  -> 683 partidas, 23522 minutos
+[322/407] desempenho de Cláudio (1223679)
+  -> 134 partidas, 168 minutos
+[323/407] desempenho de Jefinho (1365895)
+  -> 39 partidas, 306 minutos
+[324/407] desempenho de Marco Polo (1365904)
+  -> 3 partidas, 33 minutos
+[325/407] desempenho de Lenny Lobato (865028)
+  -> 267 partidas, 5183 minutos
+[326/407] desempenho de Rodrigo Atencio (1013922)
+  -> 266 partidas, 7443 minutos
+[327/407] desempenho de Kayan (1223636)
+  -> 28 partidas, 245 minutos
+[328/407] desempenho de Felipinho (1365900)
+  -> 28 partidas, 219 minutos
+[329/407] desempenho de Ignacio Ramírez (402079)
+  -> 475 partidas, 21976 minutos
+[330/407] desempenho de Gonçalo Paciência (181547)
+  -> 756 partidas, 19200 minutos
+[331/407] desempenho de Enzo Vagner (1027788)
+  -> 120 partidas, 963 minutos
+[332/407] desempenho de Riquelmy (1090768)
+  -> 97 partidas, 330 minutos
+[333/407] desempenho de Dieguinho (1225472)
+  -> 90 partidas, 605 minutos
+[334/407] desempenho de Micael (1307874)
+  -> 39 partidas, 583 minutos
+[335/407] desempenho de Pedro Rangel (1367442)
+  -> 1 partidas, 0 minutos
+[336/407] desempenho de Davi Barbosa (1223832)
+  -> 58 partidas, 2070 minutos
+[337/407] desempenho de Luis Eduardo (1261183)
+  -> 99 partidas, 0 minutos
+[338/407] desempenho de Kauan (1362167)
+  -> 135 partidas, 1680 minutos
+[339/407] desempenho de Pedro Henrique (1223830)
+  -> 80 partidas, 802 minutos
+[340/407] desempenho de Kauan Vitor (1427404)
+  -> 162 partidas, 742 minutos
+[341/407] desempenho de Maykon Jesus (1220181)
+  -> 140 partidas, 5478 minutos
+[342/407] desempenho de Gean (1362170)
+  -> 86 partidas, 2171 minutos
+[343/407] desempenho de Emerson Buiu (1365180)
+  -> 50 partidas, 335 minutos
+[344/407] desempenho de Rúben Ismael (468332)
+  -> 333 partidas, 6177 minutos
+[345/407] desempenho de Lucas Lohan (1222762)
+  -> 121 partidas, 851 minutos
+[346/407] desempenho de Wanderson (1261179)
+  -> 133 partidas, 2792 minutos
+[347/407] desempenho de Rúben Rodrigues (531674)
+  -> 387 partidas, 22053 minutos
+[348/407] desempenho de Bruno Xavier (537386)
+  -> 472 partidas, 10355 minutos
+[349/407] desempenho de Kike Saverio (388519)
+  -> 343 partidas, 8209 minutos
+[350/407] desempenho de Wendell Sacramento (1215842)
+  -> 167 partidas, 367 minutos
+  [checkpoint] salvo apos 350 jogadores deste run
+[351/407] desempenho de Marcos Cabrobó (1364790)
+  -> 19 partidas, 313 minutos
+[352/407] desempenho de Felipe Cardoso (1084626)
+  -> 128 partidas, 1148 minutos
+[353/407] desempenho de Aitor Cantalapiedra (323740)
+  -> 592 partidas, 22770 minutos
+[354/407] desempenho de Romarinho (193925)
+  -> 659 partidas, 43488 minutos
+[355/407] desempenho de Renzo López (248030)
+  -> 525 partidas, 18261 minutos
+[356/407] desempenho de Fabri (642589)
+  -> 368 partidas, 8424 minutos
+[357/407] desempenho de Emanoel (1362175)
+  -> 130 partidas, 394 minutos
+[358/407] desempenho de Bruno Ferreira (214701)
+  -> 711 partidas, 18108 minutos
+[359/407] desempenho de Willian Machado (592340)
+  -> 415 partidas, 23774 minutos
+[360/407] desempenho de Gabriel Rocha (1096080)
+  -> 160 partidas, 2708 minutos
+[361/407] desempenho de Vini Uchella (1219008)
+  -> 83 partidas, 2337 minutos
+[362/407] desempenho de Eric (1100070)
+  -> 194 partidas, 4713 minutos
+[363/407] desempenho de Fabiano (657387)
+  -> 345 partidas, 15091 minutos
+[364/407] desempenho de Pedro Esli (1362881)
+  -> 76 partidas, 730 minutos
+[365/407] desempenho de Alejandro Martínez (729356)
+  -> 274 partidas, 12316 minutos
+[366/407] desempenho de Antonio Galeano (491599)
+  -> 489 partidas, 16368 minutos
+[367/407] desempenho de Gabriel Silva (1083218)
+  -> 92 partidas, 1598 minutos
+[368/407] desempenho de Zé Neto (1116367)
+  -> 52 partidas, 2312 minutos
+[369/407] desempenho de Jorge Recalde (282145)
+  -> 685 partidas, 17510 minutos
+[370/407] desempenho de Aylon (329845)
+  -> 729 partidas, 29275 minutos
+[371/407] desempenho de Bruninho (1355412)
+  -> 12 partidas, 394 minutos
+[372/407] desempenho de Guilherme Luiz (1116387)
+  -> 124 partidas, 2082 minutos
+[373/407] desempenho de Gastón Guruceaga (266070)
+  -> 544 partidas, 20520 minutos
+[374/407] desempenho de Marcão (160188)
+  -> 611 partidas, 11065 minutos
+[375/407] desempenho de Ruan Carneiro (203822)
+  -> 637 partidas, 18180 minutos
+[376/407] desempenho de Zé Henrique (1031409)
+  -> 207 partidas, 1317 minutos
+[377/407] desempenho de Bernardo (994029)
+  -> 131 partidas, 2177 minutos
+[378/407] desempenho de Clébio (1096272)
+  -> 83 partidas, 1013 minutos
+[379/407] desempenho de Reginaldo (329738)
+  -> 716 partidas, 34679 minutos
+[380/407] desempenho de Gabriel Souza (979931)
+  -> 200 partidas, 8407 minutos
+[381/407] desempenho de Daniel Giraldo (185246)
+  -> 866 partidas, 35883 minutos
+[382/407] desempenho de Hudson (993566)
+  -> 150 partidas, 2904 minutos
+[383/407] desempenho de Luiz Henrique (1017824)
+  -> 138 partidas, 925 minutos
+[384/407] desempenho de Giovanny (379369)
+  -> 556 partidas, 14867 minutos
+[385/407] desempenho de Ênio (740085)
+  -> 403 partidas, 8885 minutos
+[386/407] desempenho de Edison Negueba (976103)
+  -> 236 partidas, 13064 minutos
+[387/407] desempenho de Vitor Pernambuco (654384)
+  -> 312 partidas, 9510 minutos
+[388/407] desempenho de Emerson Batalla (747148)
+  -> 352 partidas, 11626 minutos
+[389/407] desempenho de Emerson Galego (1047465)
+  -> 190 partidas, 6109 minutos
+[390/407] desempenho de João Scatolin (1470544)
+  -> 65 partidas, 1442 minutos
+[391/407] desempenho de Bruno Bertinato (323929)
+  -> 342 partidas, 7327 minutos
+[392/407] desempenho de Thomazella (143855)
+  -> 490 partidas, 5544 minutos
+[393/407] desempenho de Lacerda (899026)
+  -> 90 partidas, 2340 minutos
+[394/407] desempenho de Luizão (381032)
+  -> 695 partidas, 33961 minutos
+[395/407] desempenho de Leonan Santos (1152256)
+  -> 104 partidas, 3246 minutos
+[396/407] desempenho de Jemmes (1141364)
+  -> 177 partidas, 9913 minutos
+[397/407] desempenho de Ramires (1360805)
+  -> 35 partidas, 1513 minutos
+[398/407] desempenho de Lucas Ramon (378189)
+  -> 719 partidas, 29125 minutos
+[399/407] desempenho de Wesley Santos (1065802)
+  -> 178 partidas, 1311 minutos
+[400/407] desempenho de Danielzinho (292731)
+  -> 566 partidas, 31896 minutos
+  [checkpoint] salvo apos 400 jogadores deste run
+[401/407] desempenho de Aldo Filho (644204)
+  -> 432 partidas, 14179 minutos
+[402/407] desempenho de Gabriel (174570)
+  -> 1009 partidas, 42416 minutos
+[403/407] desempenho de Guilherme Pato (742025)
+  -> 346 partidas, 8714 minutos
+[404/407] desempenho de Negueba (680681)
+  -> 458 partidas, 18283 minutos
+[405/407] desempenho de Everton Maceió (1097174)
+  -> 162 partidas, 4814 minutos
+[406/407] desempenho de Chico da Costa (559602)
+  -> 490 partidas, 14365 minutos
+[407/407] desempenho de Cristian Renato (1004065)
+  -> 231 partidas, 7432 minutos
+
+987846 registros de 2371 jogadores -> /home/eduardo/Documentos/8 Periodo/Estimativa_risco_lesao/data/processed/performance_raw.csv
+estados de participacao: {'played': 504481, 'in squad': 147381, 'not in squad': 279202, 'absent': 11584, 'injured': 42711, 'played for a different team': 2487}
+periodo coberto: 1997-09-06 a 2026-11-15

@@ -1,0 +1,270 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\geometry{margin=2.4cm}
+\onehalfspacing
+\setlist[itemize]{topsep=3pt,itemsep=2pt}
+\setlist[enumerate]{topsep=3pt,itemsep=2pt}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.6em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.6em}{}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue,citecolor=black}
+
+\title{Estimativa de Risco de Lesões em Jogadores de Futebol\\
+a partir de Dados Públicos de Desempenho:\\
+uma Abordagem Baseada em Aprendizado de Máquina}
+\author{Eduardo Henrique Queiroz Almeida\\
+\texttt{eduardo.almeida@aluno.cefetmg.br}
+\and
+Sergio Henrique Quedas Ramos\\
+\texttt{sergio.ramos@aluno.cefetmg.br}}
+\date{Pré-projeto --- Ciência de Dados\\
+CEFET-MG \quad \today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+Este pré-projeto apresenta o plano de um trabalho em dupla cujo objetivo é estimar o risco de lesão de jogadores profissionais de futebol usando apenas dados públicos de partidas --- minutos jogados, congestionamento de calendário e histórico de lesões --- sem acesso a GPS ou fisiologia de clube. A fonte é o Transfermarkt (Brasileirão Série~A, temporadas 2022--2024). A metodologia combina extração via \textit{web scraping}, limpeza e engenharia de \textit{features} de carga (incluindo a razão aguda:crônica, ACWR), análise exploratória e comparação de modelos (Regressão Logística, Random Forest/XGBoost e rede neural MLP), com validação temporal e métricas adequadas a classes desbalanceadas. O resultado esperado é um \textit{score} de risco relativo, não um diagnóstico médico.
+\end{abstract}
+
+\tableofcontents
+\vspace{1em}
+\noindent\textit{Documento escrito para a apresentação de 10 a 15 minutos. Os slides devem espelhar as seções abaixo.}
+
+% ---------------------------------------------------------------------------
+\section{Introdução}
+
+Lesões estão entre os fatores mais custosos do futebol profissional: afastam o atleta, prejudicam o rendimento do clube e reduzem o valor de mercado do jogador. A gestão de carga costumava ser empírica; com dados de desempenho e técnicas de Aprendizado de Máquina, passou a ser possível estimar risco de forma mais objetiva.
+
+A literatura de ciência do esporte associa o acúmulo de carga física --- minutos, densidade de jogos, histórico prévio --- a maior probabilidade de lesão em janelas seguintes~\cite{rossi2022,applsci2024}. Clubes de elite usam GPS e sensores fisiológicos para isso. Esses dados são proprietários e inacessíveis num projeto acadêmico.
+
+A hipótese deste trabalho, alinhada a discussões da indústria e da literatura~\cite{sportmonks}, é que dados públicos de partida já constituem um \textit{proxy} razoável de carga. O recorte proposto é o Brasileirão Série~A (2022--2024), próximo da fonte e da temporada usadas em estudo acadêmico recente (UNICESUMAR / XIV~EPCC), o que permite checagem de sanidade dos números extraídos.
+
+O projeto percorre o ciclo completo: extração e integração dos dados, engenharia de \textit{features} de carga, análise exploratória e modelagem preditiva com validação temporal e interpretabilidade.
+
+% ---------------------------------------------------------------------------
+\section{Descrição do problema}
+
+\subsection{Pergunta de pesquisa}
+
+\begin{quote}
+\textit{É possível estimar, de forma útil, o risco de um jogador se lesionar numa janela futura usando apenas dados públicos de partidas --- sem GPS, frequência cardíaca ou carga de treino?}
+\end{quote}
+
+\subsection{Formulação como aprendizado supervisionado}
+
+Cada linha do dataset é uma partida da Série~A em que o jogador entrou em campo. O alvo $y$ é binário:
+
+\begin{quote}
+$y = 1$ se o jogador sofre uma lesão (não doença / gestão de esforço) nos próximos 14 dias; $y = 0$ caso contrário.
+\end{quote}
+
+As variáveis explicativas são indicadores de carga derivados do histórico de minutos e do calendário, além do perfil do atleta (idade, posição, lesões prévias).
+
+\subsection{Por que o problema é difícil}
+
+\begin{itemize}
+  \item \textbf{Classe rara:} lesão é evento pouco frequente em relação ao número de partidas. Um modelo que sempre prevê ``sem lesão'' teria acurácia alta e pouco valor --- por isso a acurácia não será a métrica principal.
+  \item \textbf{\textit{Proxy} incompleto:} minutos de jogo aproximam a carga real, mas ignoram treinos, intensidade e qualidade do preparo físico do clube.
+  \item \textbf{Viés de registro:} fontes públicas tendem a ficar mais completas em anos recentes, o que pode alterar a taxa observada entre temporadas e importa no \textit{split} temporal.
+  \item \textbf{Vazamento temporal:} embaralhar partidas do mesmo jogador entre treino e teste invalidaria a avaliação. O corte precisa ser no tempo.
+\end{itemize}
+
+O produto não é a frase ``o jogador X vai se lesionar'', e sim um \textit{score} de risco relativo associado a um padrão de carga.
+
+% ---------------------------------------------------------------------------
+\section{Objetivos}
+
+\subsection{Objetivo geral}
+
+Desenvolver e comparar modelos de Aprendizado de Máquina capazes de estimar a probabilidade de um jogador profissional sofrer uma lesão nos 14 dias seguintes a uma partida, com base em indicadores de carga derivados de dados públicos.
+
+\subsection{Objetivos específicos}
+
+\begin{enumerate}
+  \item Construir uma base integrada (elenco, histórico de lesões e desempenho por partida) para todos os clubes da Série~A nas temporadas 2022, 2023 e 2024.
+  \item Limpar os dados e categorizar o tipo de lesão (taxonomia anatômica: coxa, joelho, tornozelo, panturrilha, adutores etc.), excluindo ausências não traumáticas do alvo.
+  \item Derivar \textit{features} de carga usadas na literatura: minutos agudos (7 dias), carga crônica (média de 4 semanas), ACWR (razão aguda:crônica), dias desde a última partida, jogos nos últimos 30 dias e histórico prévio de lesões.
+  \item Realizar análise exploratória: perfil das lesões, calendário/congestionamento, relação carga $\times$ lesão e comparativos por clube e posição.
+  \item Comparar Regressão Logística (baseline), Random Forest e/ou XGBoost e uma rede neural MLP, com tratamento de desbalanceamento e validação temporal.
+  \item Interpretar os modelos (SHAP ou importância de variáveis) e discutir criticamente as limitações do \textit{proxy} público.
+\end{enumerate}
+
+% ---------------------------------------------------------------------------
+\section{Metodologia}
+
+O fluxo previsto é: extração $\rightarrow$ cache do bruto $\rightarrow$ limpeza e \textit{features} $\rightarrow$ análise exploratória $\rightarrow$ modelagem. As bibliotecas podem ser ajustadas ao longo da pesquisa.
+
+\subsection{Técnica de extração de dados}
+
+Não há API oficial do Transfermarkt. A extração é \textit{web scraping} com \texttt{requests} e \texttt{BeautifulSoup4} (\texttt{lxml}), em Python~3, com as seguintes práticas:
+
+\begin{itemize}
+  \item \textit{User-Agent} de navegador, atraso aleatório entre requisições (2,5--5\,s) e \textit{retry} com \textit{backoff} em HTTP 403/429;
+  \item cache do HTML/JSON em \texttt{data/raw/}, para não rebaixar se o \textit{parser} quebrar;
+  \item processamento em lotes de 50 jogadores, com \textit{checkpoint} (\texttt{--retomar}).
+\end{itemize}
+
+Duas fontes por jogador:
+\begin{itemize}
+  \item \textbf{Lesões:} aba \texttt{/verletzungen/} --- HTML estático (tabela \texttt{items}), inclusive paginação.
+  \item \textbf{Desempenho:} a aba visual é renderizada em JavaScript; os dados vêm da API interna \texttt{/ceapi/performance-game/<id>}, com uma linha por partida (data, competição, minutos, titular, idade, estado de participação).
+\end{itemize}
+
+O elenco de cada clube/temporada sai da página \texttt{/startseite/verein/...}. O site usa convenção europeia de temporada: o Brasileirão de 2024 corresponde a \texttt{saison\_id=2023}. Os \textit{scripts} recebem o ano civil e convertem internamente.
+
+\subsection{Tratamento de dados: natureza e tipos}
+
+Os dados são observacionais, longitudinais (várias partidas por jogador) e de natureza mista:
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Campo} & \textbf{Tipo} & \textbf{Papel} \\
+\midrule
+\texttt{player\_id}, \texttt{game\_id}, \texttt{clube\_id} & categórico (ID) & chave \\
+\texttt{data} & temporal (\textit{datetime}) & ordem e janelas \\
+\texttt{minutos\_jogados}, idade & numérico contínuo/discreto & carga e perfil \\
+\texttt{participacao}, posição, local & categórico & contexto \\
+\texttt{tipo\_lesao} (texto livre) & qualitativo $\rightarrow$ categoria & taxonomia \\
+\texttt{y} & binário & alvo \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Tratamentos previstos:
+\begin{itemize}
+  \item tipagem de datas e IDs; minutos $=0$ se o jogador não atuou;
+  \item exclusão do alvo de ausências não traumáticas (COVID, gripe, gestão de esforço, recuperação de ritmo etc.);
+  \item categorização anatômica do texto livre (coxa, joelho, tornozelo, \ldots);
+  \item \textit{features} de carga calculadas só com o histórico anterior à partida (sem vazar a observação atual);
+  \item recorte de modelagem: \texttt{participacao=played}, competição \texttt{BRA1}, anos 2022--2024.
+\end{itemize}
+
+O ACWR é a razão entre minutos nos últimos 7 dias e a média semanal dos últimos 28 dias. Valores próximos de 1 indicam carga recente alinhada ao habitual; valores altos indicam pico recente --- associação clássica com risco na literatura~\cite{rossi2022,iran2025}.
+
+\subsection{Visualização de dados}
+
+A análise exploratória seguirá cinco eixos:
+
+\begin{enumerate}
+  \item panorama da base (volumes, nulos, desbalanceamento e evolução do registro ao longo dos anos);
+  \item perfil das lesões (anatomia, posição, idade, duração);
+  \item calendário e congestionamento (taxa ao longo da temporada, densidade de jogos);
+  \item carga $\times$ lesão (ACWR, minutos agudos/crônicos, histórico prévio);
+  \item comparativos entre clubes e grupos de posição.
+\end{enumerate}
+
+Bibliotecas: \texttt{pandas} (tabelas), \texttt{matplotlib} e \texttt{seaborn} (gráficos). Ferramentas de apoio: Jupyter Notebook e o repositório Git do projeto. Se necessário, outras bibliotecas de visualização poderão ser incluídas depois.
+
+\subsection{Técnicas de machine learning}
+
+Problema de classificação binária desbalanceada. Modelos a comparar:
+
+\begin{itemize}
+  \item \textbf{Regressão Logística} --- baseline interpretável;
+  \item \textbf{Random Forest} e/ou \textbf{XGBoost} --- ensembles de árvores; a literatura em dados tabulares de lesão/carga costuma favorecê-los~\cite{applsci2024};
+  \item \textbf{MLP} (rede neural, \texttt{scikit-learn} ou PyTorch) --- para avaliar se a complexidade extra se justifica em dado tabular.
+\end{itemize}
+
+Desbalanceamento: \texttt{class\_weight} e, se couber, reamostragem (SMOTE ou \textit{undersampling}).
+
+Validação: \textit{split} temporal (treinar em 2022--2023, testar em 2024), sem embaralhar partidas do mesmo jogador. Validação cruzada agrupada por jogador pode complementar.
+
+Métricas: AUC-ROC, AUC-PR e F1 da classe positiva. Acurácia não será a métrica principal.
+
+Interpretabilidade: valores SHAP (ou importância nativa das árvores), para contrastar com a literatura (carga aguda, congestionamento, histórico prévio).
+
+Implementação prevista: \texttt{scikit-learn}, \texttt{xgboost}, \texttt{imbalanced-learn} (se SMOTE) e \texttt{shap}.
+
+% ---------------------------------------------------------------------------
+\section{Repositório}
+
+Dois sentidos de ``repositório'' importam para a pesquisa.
+
+\subsection{Fonte dos dados (repositório externo)}
+
+O repositório de dados é o Transfermarkt\footnote{\url{https://www.transfermarkt.com.br/}}, base pública mais usada em estudos acadêmicos de lesão quando não há alternativa aberta equivalente. Recorte:
+
+\begin{itemize}
+  \item liga: Campeonato Brasileiro Série~A (\texttt{BRA1});
+  \item temporadas civis: 2022, 2023 e 2024 (20 clubes por ano, com variação natural por acesso e rebaixamento);
+  \item unidade de análise no modelo: partida jogada na liga.
+\end{itemize}
+
+Não redistribuímos o HTML bruto nem os CSVs grandes. A extração é acadêmica, com \textit{rate limiting}.
+
+\subsection{Repositório do projeto (código e análises)}
+
+O código e os \textit{notebooks} estão em:
+
+\begin{center}
+\url{https://github.com/edualmeidahr/injury-risk-football-ml}
+\end{center}
+
+Versionam-se apenas \textit{scripts}, \textit{notebooks} e documentação. \texttt{data/raw/} e \texttt{data/processed/} entram no \texttt{.gitignore}. Estrutura principal:
+
+\begin{itemize}
+  \item \texttt{scripts/} --- cliente HTTP, \textit{scrapers} (liga, elenco, lesões, desempenho), \texttt{features.py} e \texttt{build\_dataset.py};
+  \item \texttt{notebooks/} --- análise exploratória e modelagem;
+  \item \texttt{requirements.txt} --- ambiente reproduzível (\texttt{pandas}, \texttt{requests}, \texttt{beautifulsoup4}, \texttt{matplotlib}, \texttt{seaborn}; depois \texttt{scikit-learn}, \texttt{xgboost} etc.).
+\end{itemize}
+
+% ---------------------------------------------------------------------------
+\section{Conclusão e pretensões}
+
+Este pré-projeto fixa o problema (risco de lesão em 14 dias a partir de carga pública), o recorte (Série~A 2022--2024) e o caminho metodológico (extração responsável, \textit{features} de carga, EDA e comparação de três famílias de modelos sob validação temporal).
+
+Pretensões do trabalho:
+\begin{itemize}
+  \item entregar uma base documentada, reutilizável em trabalhos futuros;
+  \item mostrar, com evidência empírica, se o \textit{proxy} público é informativo o bastante para um \textit{score} de risco relativo;
+  \item comparar de forma honesta regressão, ensembles e MLP --- inclusive se a rede neural se justifica em dado tabular e desbalanceado;
+  \item identificar, via interpretabilidade, quais variáveis mais se associam ao risco nesta amostra, à luz da literatura;
+  \item deixar explícitas as limitações (sem GPS/treino, viés de registro, confundidores de clube) e o caráter não diagnóstico do modelo.
+\end{itemize}
+
+O trabalho pretende, ao final, um relatório que una a base construída, a exploração dos dados e a comparação dos modelos, com discussão explícita das limitações.
+
+\begin{thebibliography}{9}
+
+\bibitem{rossi2022}
+A.~Rossi, L.~Pappalardo e P.~Cintia.
+\newblock Machine Learning for Understanding and Predicting Injuries in Football.
+\newblock \textit{Sports Medicine -- Open}, 2022.
+\newblock \url{https://doi.org/10.1186/s40798-022-00465-4}
+
+\bibitem{applsci2024}
+\textit{Football Analytics: Assessing the Correlation between Workload, Injury and Performance of Football Players in the English Premier League}.
+\newblock \textit{Applied Sciences}, 2024.
+\newblock \url{https://doi.org/10.3390/app14167217}
+
+\bibitem{iran2025}
+\textit{Prediction of football injuries using GPS-based data in Iranian professional football players: a machine learning approach}.
+\newblock \textit{Frontiers in Sports and Active Living}, 2025.
+\newblock \url{https://www.frontiersin.org/articles/10.3389/fspor.2025.1425180}
+
+\bibitem{medrxiv2025}
+\textit{Informed Injury Prediction in Elite Football: Decision Theory meets Machine Learning}.
+\newblock medRxiv, 2025 (preprint).
+\newblock \url{https://www.medrxiv.org/content/10.1101/2025.04.23.25326218v1}
+
+\bibitem{sportmonks}
+Sportmonks.
+\newblock \textit{Building an Injury Risk Model With Football Data}.
+\newblock \url{https://www.sportmonks.com/blogs/building-an-injury-risk-model-with-football-data/}
+
+\end{thebibliography}
+
+\end{document}

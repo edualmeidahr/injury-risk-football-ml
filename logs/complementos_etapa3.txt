@@ -1,0 +1,33 @@
+[A] Regressao logistica  AUC treino=0.649 cv=0.613±0.031 teste=0.639
+[A] Random Forest        AUC treino=0.915 cv=0.608±0.014 teste=0.618
+[A] XGBoost              AUC treino=0.757 cv=0.620±0.020 teste=0.620
+[A] MLP                  AUC treino=0.537 cv=0.523±0.028 teste=0.468
+[B] Regressao logistica  AUC treino=0.676 cv=0.650±0.022 teste=0.646
+[B] Random Forest        AUC treino=0.814 cv=0.620±0.021 teste=0.639
+[B] XGBoost              AUC treino=0.743 cv=0.629±0.022 teste=0.633
+[B] MLP                  AUC treino=0.500 cv=0.529±0.034 teste=0.504
+[C] Regressao logistica  AUC treino=0.687 cv=0.672±0.037 teste=0.652
+[C] Random Forest        AUC treino=0.851 cv=0.655±0.035 teste=0.630
+[C] XGBoost              AUC treino=0.732 cv=0.670±0.036 teste=0.645
+[C] MLP                  AUC treino=0.603 cv=0.577±0.015 teste=0.567
+
+=== Treino x validação cruzada x teste ===
+                           AUC_treino  AUC_cv_media  AUC_cv_dp  AUC_teste  AP_treino  AP_cv_media  AP_cv_dp  AP_teste  prev_treino  prev_teste
+corte modelo                                                                                                                                  
+A     Regressao logistica       0.649         0.613      0.031      0.639      0.046        0.044     0.009     0.118        0.023       0.069
+      Random Forest             0.915         0.608      0.014      0.618      0.212        0.039     0.008     0.108        0.023       0.069
+      XGBoost                   0.757         0.620      0.020      0.620      0.085        0.038     0.007     0.111        0.023       0.069
+      MLP                       0.537         0.523      0.028      0.468      0.026        0.027     0.006     0.063        0.023       0.069
+B     Regressao logistica       0.676         0.650      0.022      0.646      0.134        0.121     0.010     0.140        0.069       0.084
+      Random Forest             0.814         0.620      0.021      0.639      0.278        0.112     0.016     0.126        0.069       0.084
+      XGBoost                   0.743         0.629      0.022      0.633      0.221        0.109     0.011     0.127        0.069       0.084
+      MLP                       0.500         0.529      0.034      0.504      0.068        0.076     0.007     0.089        0.069       0.084
+C     Regressao logistica       0.687         0.672      0.037      0.652      0.088        0.088     0.020     0.139        0.038       0.084
+      Random Forest             0.851         0.655      0.035      0.630      0.206        0.077     0.013     0.127        0.038       0.084
+      XGBoost                   0.732         0.670      0.036      0.645      0.127        0.079     0.014     0.130        0.038       0.084
+      MLP                       0.603         0.577      0.015      0.567      0.052        0.048     0.005     0.104        0.038       0.084
+
+=== Matriz de confusão (RL, corte B, top 10%) ===
+VP=203 FP=989 FN=795 VN=9934 | precisão=0.170 recall=0.203 especificidade=0.909 | n=11921
+
+figura salva em /home/eduardo/Documentos/8 Periodo/Estimativa_risco_lesao/notebooks/figuras/artigo_curva_pr.png

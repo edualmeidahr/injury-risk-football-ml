@@ -12,3 +12,13 @@ venv/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+
+# Pacote dos dados (grande demais para o GitHub e não deve ser versionado)
+data.zip
+
+# Arquivos auxiliares do LaTeX
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+texput.log
